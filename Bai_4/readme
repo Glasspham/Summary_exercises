@@ -1,0 +1,11 @@
+Một tờ giấy có độ dày a µm (mi-crô-mét). 
+
+Hỏi cần phải xếp đôi tờ giấy ít nhất bao nhiêu lần để độ dày nhận được không nhỏ hơn b cm (xăng-ti-mét). 
+
+Biết rằng: 1cm = 10000mu*m
+
+Yêu cầu: Cho trước số a um là độ dày tờ giấy, số b cm là độ dày cần có. Tính số lầnxếp giấy.
+
+Dữ liệu vào: Nhập từ bàn phím hai số nguyên dương a, b (0 < a, b <= 100) .
+
+Kết quả: Xuất ra màn hình số lần xếp giấy tính được.
