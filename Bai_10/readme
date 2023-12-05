@@ -1,0 +1,6 @@
+Cho trước STT, hãy nhập ma trận Anxn từ bàn phím chứa số nguyên biết n được tính theo công thức: n = 3 + STT % 3 
+(ví dụ STT = 12 -> n = 3) 
+Sử dụng hàm thực hiện yêu cầu:
+- Kiểm tra ma trận vừa nhập có phải là ma trận tam giác trên.
+- Sắp xếp ma trận vừa nhập theo chiều giảm dần từ trái qua phải, từ trên xuống dưới. 
+  Nhập 1 số x bất kỳ, chèn x vào ma trận để ma trận này vẫn được sắp xếp theo chiều giảm dần.
