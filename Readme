@@ -1,0 +1,17 @@
+Lưu Ý:
+Với bài tập Python và C++ này có câu lệnh mở file ".INP" và tạo file ".OUT".
+Làm theo như sau (lưu ý dành cho ai sài Visual Studio Code):
+
+-File ".INP" là nơi nhập dữ liệu đã được tạo sẵn lúc tải file về.
+-Muốn chạy được thì:
+    +Chuột phải vào file ".INP" chọn "Copy Path (hoặc Shift + Alt + C)".
+    +Rồi tìm mục "# Đọc dữ liệu từ file input" dán đường link mới chép đó vào đường link để sẵn.
+
+-File ".OUT" là file này đã được cài tự động tạo ra khi chương trình chạy ra kết quả
+-Muốn file chạy đúng chỗ bạn cần:
+    +Tìm mục "# Ghi kết quả ra file output" hoặc "# Đường dẫn tuyệt đối tới file .out"(chỉ bài 2) dán đường link ở phía trên 
+    (ở bước INP) vào đường link để sẵn. Và đổi .INP thành .OUT
+    
+-1 Lưu ý nhỏ với c++ là nếu đường link là \ thì đổi thành / hoặc \\ 
+
+Làm theo các bác bước ở trên là xong và chạy code thôi!
