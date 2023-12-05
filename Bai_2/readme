@@ -1,0 +1,25 @@
+Để chuẩn bị cho kỳ thi học sinh giỏi môn tin học, thầy giáo ra bài tập được đánh số từ 1 đến 100. 
+Mỗi bài tập nhằm rèn luyện một số kỹ năng nào đó.
+Giáo viên muốn định hướng cho quá trình tự luyện tập được hiệu quả, mỗi bài tập có một yêu cầu tối thiểu về trình độ kỹ năng. 
+Để giải được bài thứ, học sinh cần có trình độ kỹ năng tối thiểu là. 
+Điều này có nghĩa là học sinh có thể giải được bài thứ khi và chỉ khi có trình độ kỹ năng bằng hoặc lớn hơn. 
+Nếu giải được bài thứ trình độ kỹ năng của học sinh sẽ tăng thêm một lượng là. 
+Giả sử ban đầu trình độ kỹ năng của học sinh trước khi làm bài tập là. 
+Các bài tập có thể được làm theo trình tự bất kỳ tùy chọn.
+Ví dụ, với trình độ kỹ năng ban đầu là và các giá trị tương ứng là (1, 10), (21, 5), (1, 10), (100, 100), 
+học sinh sẽ giải bài 1, sau đó làm bài 3 và cuối cùng làm bài 2. 
+Như vậy học sinh sẽ giải được tất cả 3 bài.
+
+Yêu cầu: cho các số nguyên và cặp giá trị. Hãy xác định số lượng bài tối đa có thể được giải.
+Dữ liệu vào: Cho trong tệp tin văn bản OLYMPIC.INP có cấu trúc như sau:
+- Dòng đầu tiên chứa 2 số nguyên 
+- Dòng thứ trong dòng tiếp theo chứa 2 số nguyên 
+Kết quả ra: Ghi ra tệp tin văn bản OLYMPIC.OUT một số nguyên – số lượng bài tối đa có thể được giải.
+
+Ví dụ: 
+olympic.inp         olympic.out
+    4 1                 3
+    1 10
+    21 5
+    1 10
+   100 100 
