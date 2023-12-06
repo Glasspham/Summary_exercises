@@ -5,11 +5,9 @@ Dữ liệu vào:
 - Dòng tiếp theo gồm N số nguyên dương ai (ai≤10^12)
 Dữ liệu ra: Một dòng duy nhất là số tiền nhận được nhiều nhất tỉnh đến ngày thử K.
 Ví dụ:
-THICONG.INP
-7 3
+THICONG.INP      THICONG.OUT
+7 3                  15
 5 4 1 9 3 8 2
-THICONG.OUT
-15
 Ràng buộc:
 50% số test có N ≤100; a ≤106
 - 50% số test còn lại không ràng buộc gì thêm.
