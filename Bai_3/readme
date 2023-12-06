@@ -8,7 +8,7 @@ Bạn hãy viết chương trình giúp Hùng xác định chi phí truy cập I
 -Dữ liệu ra ghi vào tệp goicuoc.out : Gồm một dòng chứa một số nguyên là số tiền Hùng phải trả.
 
 Ràng buộc : 
--50% số test 1≤A,B,C,D ≤100
+-50% số test 1 ≤ A,B,C,D ≤ 100
 -50% số test còn lại
 
 Ví dụ:
