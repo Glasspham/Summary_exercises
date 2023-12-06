@@ -15,9 +15,7 @@ giáo viên.
 Dữ liệu ra: Một số nguyên duy nhất cho biết thời gian nhanh nhất để hoàn thành 
 cả 3 công việc.
 Ví dụ:
-PHANCONG.INP
-3 5 5
+PHANCONG.INP          PHANCONG.OUT
+3 5 5                       4
 3 4 2
 1 6 2
-PHANCONG.OUT
-4
