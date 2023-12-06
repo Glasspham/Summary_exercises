@@ -5,11 +5,9 @@ Dữ liệu vào:
 - Dòng tiếp theo gồm N số nguyên dương ai (ai≤10^12)
 Dữ liệu ra: Một số nguyên duy nhất là giá mà công ty cần bỏ ra.
 Ví dụ:
-DAUTHAU.INP
-4 2
+DAUTHAU.INP    DAUTHAU.OUT
+4 2                  4
 5 9 6 3
-DAUTHAU.OUT
-4
 Ràng buộc:
 - 50% số test có N ≤100; a ≤10^6
 - 50% số test còn lại không ràng buộc gì thêm.
