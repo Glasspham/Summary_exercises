@@ -9,12 +9,10 @@ Dữ liệu vào:
 - Dòng đầu ghi số nguyên dương n (n ≤ 10^4), là số công ty tư nhân mà công ty VINABUILD đã thuê.
 - n dòng tiếp theo mỗi dòng gồm 2 số nguyên dương L và R (L, R < 10^12)
 Dữ liệu ra: Một số nguyên duy nhất là tổng chi phí cần phải trả.
-DEBIEN.INP
-2
+DEBIEN.INP    DEBIEN.OUT
+2                  6
 1 10
 20 50
-DEBIEN.OUT
-6
 Ràng buộc:
 - 30% số test có n ≤100; L, R ≤10^6
 - 20% số test có các đoạn không chồng lấn lên nhau và L, R ≤106
