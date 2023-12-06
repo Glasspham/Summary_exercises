@@ -9,7 +9,7 @@ hoàn thành công việc thứ hai và n ngày để hoàn thành công việc 
 Em hãy giúp thầy Hiệu trưởng xây dựng phương án phân công cho các giáo viên sao 
 cho khi tiến hành đồng thời thì thời gian hoàn thành tất cả các việc là nhanh 
 nhất.
-Dữ liệu vào: Gồm 3 dòng, mỗi dòng ghi 3 số nguyên dương m, n, k (m, n, k≤100) 
+Dữ liệu vào: Gồm 3 dòng, mỗi dòng ghi 3 số nguyên dương m, n, k (m, n, k ≤ 100) 
 lần lượt là thời gian hoàn thành công việc thứ nhất, thứ hai và thứ ba của mỗi 
 giáo viên.
 Dữ liệu ra: Một số nguyên duy nhất cho biết thời gian nhanh nhất để hoàn thành 
