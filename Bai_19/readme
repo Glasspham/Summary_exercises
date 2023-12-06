@@ -1,8 +1,9 @@
-Cho dãy a1, a2,..,an các phần tử có giá trị khác nhau (a ≠ a; với mọi i ≠ j) và số nguyêndương k (1 ≤ k ≤ n) Hãy đưa ra giá trị nhỏ thứ k trong dãy.
+Cho dãy a1, a2,..,an các phần tử có giá trị khác nhau (ai ≠  với mọi i ≠ j) và số nguyên dương k (1 ≤ k ≤ n). 
+Hãy đưa ra giá trị nhỏ thứ k trong dãy.
 Dữ liệu: Vào từ file MINK.INP
 - Dòng 1: Chứa số nguyên dương N (N ≤ 20000) là số lượng phần tử của dãy.
-- Dòng 2: Chứa số nguyên dương k(1 ≤ k ≤ n)
-- Dòng 3: Chứa các phần tử a1,a2,...,an(các phần tử cách nhau bởi một dấu cách)
+- Dòng 2: Chứa số nguyên dương k (1 ≤ k ≤ n).
+- Dòng 3: Chứa các phần tử a1,a2,...,an (các phần tử cách nhau bởi một dấu cách).
 MINK.INP                                  MINK.OUT
 5                                            4
 3
