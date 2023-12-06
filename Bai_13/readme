@@ -7,8 +7,6 @@ Dữ liệu:
 • Dòng 2: chứa xâu ký tự S
 Kết quả: Gồm một dòng duy nhất ghi một số nguyên duy nhất là "Độ phân biệt" của dãy ký tự S.
 Ví dụ:
-DIFFSSTR
-7
+DIFFSSTR      DIFFSSTR.OUT
+7                 4
 ABCDABC
-DIFFSSTR.OUT
-4
