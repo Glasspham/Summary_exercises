@@ -1,0 +1,53 @@
+Bài 1 : Viết hàm tính tích của 2 số nguyên a, b là chiều dài, chiều rộng của hình chữ nhật.
+Viết chương trình nhập vào chiều dài, chiều rộng của 2 mảnh vườn hình chữ nhật. mảnh vườn 
+thứ 1 có chiều dài a1, chiều rộng b1, mảnh vườn thứ 2 có chiều dài a2, chiều rộng b2.
+Sử dụng hàm đã viết in ra tổng diện tích của 2 mảnh vườn trên. 
+Ví dụ :
+input
+6 4
+8 5
+output
+Tổng diện tích : 64
+
+Bài 2 :  Viết hàm tính diện tích tam giác dựa vào độ dài ba cạnh của tam giác a, b, c bằng công thức Heron:
+S=\ \sqrt{p\ast\left(p-a\right)\ast\left(p-b\right)\ast(p-c)} ;  p=\frac{a+b+c}{2}
+Nhập vào 3 số nguyên là độ dài 3 cạnh của 1 tam giác. Sử dụng hàm đã viết in ra diện tích 
+tam giác.
+input
+3 4 5
+outpu
+Diện tích tam giác : 6
+
+Bài 3 : Cho hai xâu S1 và S2. Đếm số lần xuất hiện của xâu S2 trong xâu S1 từ phạm vi L đến R.
+input
+cái xắc xinh xinh
+xinh
+8  14
+output
+Số lần S2 xuất hiện: 1
+
+Bài 4 : Nhập vào 3 xâu S, x, y. Tạo xâu mới từ xâu S bằng cách thay thế xâu x của S bằng xâu y. In ra xâu S 
+mới.
+input
+em xinh em đứng một mình cũng xinh
+một mình
+nơi nào
+output
+em xinh em đứng nơi nào cũng xinh
+
+Bài 5: Viết chương trình nhập vào n số nguyên từ bàn phím, các số cách nhau bởi dấu cách. Hãy in ra màn hình 
+tổng các số chẵn của n số nguyên trên.
+input
+5
+2  6  4  9  8
+output
+Tổng các số chẵn : 20
+
+Bài 6: Viết chương trình nhập vào n số nguyên từ bàn phím, các số cách nhau bởi dấu cách. Hãy in ra màn hình 
+tổng các số của n số nguyên trên.
+input
+5
+2  6  4  9  8
+output
+Tổng các số: 29
+
