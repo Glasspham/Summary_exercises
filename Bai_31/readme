@@ -1,0 +1,25 @@
+Dây con tăng liền kề dài nhất và có tổng nguyên tố lớn nhất 
+Cho dãy A gồm n số nguyên. Hãy tìm dây con tăng dài nhất gồm các phần tử liền kề, nếu có nhiều dây con tăng dài nhất như thế thì hãy chỉ ra dãy có tổng các phần tử là số nguyên tố lớn nhất.
+Ví dụ: A[]={4,2,3,5,1,6,7,8,9}. Trong ví dụ này ta có dây con (1,6,7,8,9) là dài nhất gồm 5 phần tử và có tổng các số nguyên tố = 7 cũng là lớn nhất.
+• Dữ liệu vào từ file LISMAXSUMPRIME.INP
+Dòng đầu tiên chứa số nguyên T là số bộ dữ liệu, mỗi bộ dữ liệu gồm:
+Dòng đầu chứa số nguyên N
+Dòng sau chứa N số nguyên, các số cách nhau một dấu cách là các phần tử của
+dây A.
+Ràng buộc
+1<=T<=100; 1<=N<=10:
+1<=A[i]<=10, i=1..n
+• Kết quả ghi ra file LISMAXSUMPRIME.OUT
+Ứng với mỗi bộ dữ liệu test in ra một dòng, chứa độ dài dây con tăng liên kề dài nhất và tổng các số nguyên tố trong dây đó.
+LISMAXSUMPRIME.INP
+3
+9
+4 2 3 5 1 6 7 8 9
+10
+2 3 5 7 4 1 6 5 4 8
+5 
+2 2 2 2 2
+LISMAXSUMPRIME.OUT
+5 7
+4 17
+1 2
