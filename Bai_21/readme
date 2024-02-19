@@ -1,0 +1,12 @@
+Hai số nguyên tố a và b được gọi là cặp số nguyên tổ hàng xóm nếu giá trị của hai số đó lệch nhau 2 đơn vị. 
+Chẳng hạn 5 và 7, 11 và 13 là những cặp số nguyên tố hàng xóm.
+Cho hai số nguyên dương L và R. Hãy cho biết có bao nhiêu cặp số nguyên tổ hàng xóm trong đoạn [L,R].
+Dữ liệu vào: Một dòng ghi hai số nguyên dương L và R (L ≤ R ≤ 10^7)
+Dữ liệu ra: Ghi một số nguyên duy nhất cho biết số lượng cặp số tìm được.
+Ví dụ:
+HANGXOM.INP    HANGXOM.OUT      Giải thích: 
+   3 20             4           Có 4 cặp số nguyên tố hàng xóm là: 
+                                  3-5, 5-7, 11-13, 17-19.
+Ràng buộc:
+- 50% số test có L ≤ R ≤ 1000;
+- 50% số test còn lại không ràng buộc gì thêm.

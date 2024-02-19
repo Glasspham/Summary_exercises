@@ -1,0 +1,9 @@
+Cho ma trận các số nguyên với n hàng và m cột được nhập từ bàn phím. Thiết kế modul chương trình con cho các yêu cầu sau:
+1. Hàm nhập ma trận
+2. Hàm xuất ma trận
+3. Hàm tìm ra 3 giá trị lớn nhất của ma trận (Giá trị lớn thứ nhất, giá trị lớn thứ 2, giá trị lớn thứ 3)
+4. Hàm tìm 3 và in ra 3 giá trị nhỏ nhất của ma trận
+5. Hàm in ra số xuất hiện nhiều nhất, tần suất xuất hiện của số đó
+6. Hàm tính tổng các số chia hết cho 2
+7. Hàm tính tích các số chia hết cho 2
+8. Hàm in ra các số nguyên tố

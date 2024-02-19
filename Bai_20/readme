@@ -1,0 +1,22 @@
+Cho xâu A = A1,A2,...,An và xâu B = B1,B2,...,Bm (M, N ≤ 250), xâu A, B chỉ chứa các kí tự từ 0 đến 9. 
+Hãy tìm số C = C1,C2,..,Ck lớn nhất (C) nhận được từ A và B bằng cách xoá đi một số kí tự chữ số).
+Ví dụ: A = 23456 B= 645535 thì C = 45 (nhận được từ A bằng cách xoá đi A1,A2,A5; nhận được từ B bằng cách xoá đi 
+B1,B4,B5,B6).
+Dữ liệu:
+Vào từ file MAX.INP gồm
+Dòng 1: Chứa xâu A có độ dài không quá 250 kí tự
+Dòng 2: Chứa xâu B có độ đài không quá 250 kí tự
+Kết quả: Ghi ra file MAX.OUT số C là kết quả cần tìm (trong trường hợp không tồn tại số C ghi ra số -1).
+Ví dụ
+MAX.INP     MAX.OUT             
+53572          35
+4835
+
+123456         456
+4358246
+
+12345          -1
+6789
+Ràng buộc:
+- Có 50% số lượng test thỏa mãn điều kiện xâu A, B có độ dài không quá 100
+- Có 50% số lượng test thỏa mãn điều kiện xâu A, B có độ dài không quá 250

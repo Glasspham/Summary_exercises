@@ -1,0 +1,17 @@
+Buổi lễ kỷ niệm ngày 20/11 năm nay sẽ có lãnh đạo Hội đồng Đội của huyện về dự, do đó thầy Tổng phụ trách muốn tạo ấn 
+tượng bằng cách sử dụng thật nhiều hoa để trang trí sân khấu. Thầy đã giao cho Lan số kinh phí m đồng để mua hoa. Tại 
+cửa tiệm bán hoa có n loại hoa, loại hoa thứ  có giá ki đồng và số lượng còn lại trong cửa hàng là ai. Nhiệm vụ 
+của Lan rất đơn giản: Tìm cách mua được càng nhiều hoa càng tốt. Em hãy xác định số lượng hoa nhiều nhất mà bạn Lan mua
+được.
+
+Dữ liệu vào:
+-Dòng đầu ghi 2 số nguyên dương n và m ( n ≤ 10^5 , m ≤ 10^12 )
+-n dòng tiếp theo mỗi dòng ghi 2 số nguyên dương k và a(k, a ≤ 10^6) lần lượt là giá và số lượng còn lại của mỗi loại hoa.
+Dữ liệu ra: Ghi một số nguyên duy nhất là số lượng hoa mà Lan mua được.
+Ví dụ
+MUAHOA.INP      MUAHOA.OUT 
+4 20            10
+2 5
+1 3
+4 6
+3 4

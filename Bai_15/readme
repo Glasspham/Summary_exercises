@@ -1,0 +1,17 @@
+Năm nay, trường BTN sẽ tổ chức lễ kỷ niệm ngày Nhà giáo Việt Nam 20/11. Công tác
+chuẩn bị đã cơ bản hoàn tất, chỉ còn lại 3 công việc là trang trí sân khấu, lắp đặt hệ thống đèn led
+và tuyển chọn các tiết mục văn nghệ. Thầy Hiệu trưởng sẽ phân công mỗi công việc cho một
+giáo viên, tuy nhiên thầy đang đau đầu vì thời gian hoàn thành từng công việc của 3 giáo viên là
+khác nhau. Giáo viên thứ i sẽ cần ki ngày để hoàn thành công việc thứ nhất, mi ngày để hoàn
+thành công việc thứ hai và ni ngày để hoàn thành công việc thứ ba. Em hãy giúp thầy Hiệu
+trưởng xây dựng phương án phân công cho các giáo viên sao cho khi tiến hành đồng thời thì thời
+gian hoàn thành tất cả các việc là nhanh nhất.
+Dữ liệu vào: Gồm 3 dòng, mỗi dòng ghi 3 số nguyên dương m, n, k (m, n, k  100) lần
+lượt là thời gian hoàn thành công việc thứ nhất, thứ hai và thứ ba của mỗi giáo viên.
+Dữ liệu ra: Một số nguyên duy nhất cho biết thời gian nhanh nhất để hoàn thành cả 3
+công việc.
+Ví dụ:
+PHANCONG.INP   PHANCONG.OUT
+3 5 5          4
+3 4 2
+1 6 2

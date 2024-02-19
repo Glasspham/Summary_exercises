@@ -1,0 +1,10 @@
+Để chuẩn bị kỷ niệm ngày Nhà giáo Việt Nam (20/11) Đoàn trường có tổ chức giải chạy marathon cho học sinh trong toàn 
+trường. Giải chạy có n học sinh tham gia. Kết quả xếp hạng theo thành tích từ cao xuống thấp và được đánh số từ 1 đến n. 
+Ban tổ chức trao thưởng cho học sinh tham gia như sau: Bạn xếp thứ n được 1 phần quả, các bạn còn lại sẽ nhận được số 
+phần quà theo qui tắc, bạn xếp thứ i có số phần quà nhiều hơn bạn xếp thứ i + 1 là a. Hãy cho biết Ban tổ chức cần chuẩn 
+bị bao nhiêu phần quà để trao thưởng?
+Dữ liệu: Nhập từ bàn phím hai số nguyên dương n và a (n≤ 10°, a ≤ 5) cách nhau bằng dầu trống (space).
+Kết quả: in ra màn hình một số nguyên là số phần quà mà Ban tổ chức cần chuẩn bị.
+Ví dụ:
+Dữ liệu vào        Kết quả in ra
+5 3                      35

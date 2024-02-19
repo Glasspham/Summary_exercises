@@ -1,0 +1,19 @@
+Vào năm 2100, công ty VINABUILD là công ty xây dựng lớn nhất của Việt Nam, và là một trong 100 công ty xây dựng lớn và chất lượng nhất thế giới. 5 năm trước, công ty đã thi công xây dựng tuyến đê biển phòng hộ BÌNH AN 1, dài 3.260 km, kéo dài từ Móng Cái (Quảng Ninh) đến Hà Tiên (Kiên Giang). Đây là công trình cấp quốc gia nhằm mục tiêu đối phó tình trạng nước biển dâng cao xâm lấn đất liền. Cũng nhờ vào công trình này, công ty đã làm nên tên tuổi và nổi tiếng trên toàn thế giới.
+Năm nay, công ty sẽ tiến hành bảo trì trên toàn bộ tuyến đê biển. Kế hoạch của công ty là kiểm tra và gia cố các vị trí như sau: Xuất phát từ Hà Tiên (km 0) sẽ được đánh dấu là 1, vị trí tiếp theo sẽ cách vị trí xuất phát lần lượt là 4km, 9km, 16km. .., vị trí thứ í sẽ cách vị trí xuất phát i*i km.
+Nhằm đảm bảo tiến độ, Ban giảm đốc công ty đã lên kế hoạch tổ chức đấu
+thầu để thuê n công ty xây dựng tư nhân, mỗi công ty sẽ phụ trách một đoạn để
+biển có chiều dài từ km thứ 1 đến km thứ R. Chi phí dự kiến để kiểm tra và gia
+cổ một vị trị là 1. Công ty VINABUILD cần dự tỉnh tổng chi phí cần phải trả cho
+các công ty tư nhân để cân đối thu chỉ trong năm nay.
+Dữ liệu vào:
+- Dòng đầu ghi số nguyên dương n (n ≤ 10^4), là số công ty tư nhân mà công ty VINABUILD đã thuê.
+- n dòng tiếp theo mỗi dòng gồm 2 số nguyên dương L và R (L, R < 10^12)
+Dữ liệu ra: Một số nguyên duy nhất là tổng chi phí cần phải trả.
+DEBIEN.INP    DEBIEN.OUT
+2                  6
+1 10
+20 50
+Ràng buộc:
+- 30% số test có n ≤100; L, R ≤10^6
+- 20% số test có các đoạn không chồng lấn lên nhau và L, R ≤106
+- 50% số test còn lại không ràng buộc gì thêm.

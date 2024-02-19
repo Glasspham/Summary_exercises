@@ -1,0 +1,12 @@
+Cho số nguyên dương n. Hãy ghi ra tất cả các ước nguyên dương của n. 
+Dữ liệu vào: Một dòng ghi số nguyên dương n (n ≤ 10^12).
+Dữ liệu ra: Các ước của n, ghi ra theo thứ tự từ bé đến lớn, mỗi số ghi trên một dòng.
+Ví dụ:
+UOC.INP    UOC.OUT
+   6          1
+              2
+              3
+              6
+Ràng buộc:
+- 80% số test có n ≤ 10^6
+- 20% số test còn lại không ràng buộc gì thêm

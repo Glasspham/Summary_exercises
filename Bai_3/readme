@@ -1,0 +1,17 @@
+Hùng đăng ký gói cước Viettel 4G cho điện thoại thông minh. 
+Phí thuê bao hàng tháng là A đồng và trong khoản phí hàng tháng này được phép sử dụng không quá B megabyte. 
+Nếu lưu lượng sử dụng vượt quá B megabyte thì mỗi megabyte dùng quá lưu lượng sẽ phải trả C đồng. 
+Được biết, trong tháng đầu tiên Hùng đã sử dụng D megabyte. 
+
+Bạn hãy viết chương trình giúp Hùng xác định chi phí truy cập Internet trong tháng đầu tiên (bao gồm cả phí thuê bao).
+-Dữ liệu vào từ tệp goicuoc.inp: Gồm một dòng chứa 4 số nguyên A, B, C, D ngăn cách nhau bởi một dấu cách (1 ≤ A, B, C, D ≤ 1000)
+-Dữ liệu ra ghi vào tệp goicuoc.out : Gồm một dòng chứa một số nguyên là số tiền Hùng phải trả.
+
+Ràng buộc : 
+-50% số test 1 ≤ A,B,C,D ≤ 100
+-50% số test còn lại
+
+Ví dụ:
+goicuoc.inp         goicuoc.out
+120 10 12 15        180 
+100 10 15  8        100

@@ -1,0 +1,8 @@
+Viết chương trình thực hiện các yêu cầu sau: 
+a. Nhập một dãy số nguyên gồm n phần tử (0<n<100), n được nhập từ bàn phím.
+b. Đưa dây sau khi nhập ra màn hình 
+c. Sắp xếp dãy số sao cho các số chia hết cho 3 lên đầu dây, in ra dây sau khi sắp xếp.
+d. Chèn một số c vào vị trí k  (0<k<n) trong dãy, k nhập vào từ bàn phím. Đưa ra dãy sau khi chèn.
+e. Nhập một số c, kiểm tra c đã có trong dãy số hay không? Nếu không thì đưa ra thông báo c không có trong dãy,
+   nếu có thì xoá tất cả các phần tử trong dãy bằng c và in ra dãy sau khi xoá.
+

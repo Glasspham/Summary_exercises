@@ -1,0 +1,12 @@
+Hàng rào nhà thầy Nam được thiết kế bằng thanh sắt có độ cao khác nhau. Hôm nay thầy muốn sửa lại hàng rào bằng cách tăng hoặc giảm độ cao của các thanh sắt sao cho cuối cùng các thanh đều có cùng độ cao. Chi phí để xử lý một thanh sắt từ độ cao L thành độ cao H là |H-L|, chẳng hạn cần xử lý 2 thanh sắt có độ cao lần lượt là 6 và 10 thành 2 thanh có độ cao là 7 thì cần tốn tổng chi phí là 4 (tốn chi phí 1 để xử lý từ 6 thành 7 và tốn chi phí 3 để xử lý từ 10 thành 7).
+Yêu cầu: Em hãy giúp thầy tìm độ cao thích hợp để khi xử lý các thanh sắt về độ cao đó thì tổng chi phí là ít nhất. Đương nhiên là thầy sẽ mong muốn hàng rào của mình cao nhất có thể.
+Dữ liệu vào:
+- Dòng đầu ghi số nguyên dương n (n ≤ 10^4), là số lượng thanh sắt có trên hàng rào.
+- Dòng tiếp theo ghi n số nguyên dương có giá trị không quá 1000, là chiều cao hiện tại của các thanh sắt.
+Dữ liệu ra:
+- Dòng đầu ghi một số nguyên cho biết độ cao của hàng rào sau khi sửa.
+- Dong thứ 2 ghi một số nguyên, cho biết tổng chi phí cần phải trả để xử lý hàng rào.
+Ví dụ:
+HANGRAO.INP      HANGRAO.OUT
+4                    6
+6 2 7 5              6

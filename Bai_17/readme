@@ -1,0 +1,20 @@
+FASTBUILD là công ty xây dựng mới thành lập trong năm 2100. Tiêu chí của công ty là Chất lượng – Nhanh chóng – Kinh tế,
+Kể từ lúc thành lập, công ty đã thực hiện thành công nhiều công trình xây dựng lớn, được các nhà đầu tư đánh giá cao. 
+Dựa vào năng lực và uy tín hiện tại, công ty hoàn toàn đủ điều kiện và khả năng để tham gia đấu thầu thi công bảo trì 
+đê biển.
+Theo các nguồn thông tin nhận được, trong lần đấu thầu này sẽ có K gói thầu và có N công ty tham gia đấu thầu. Các 
+công ty này có vốn điều lệ lần lượt là a1, a2,...,an. Quy tắc trúng thầu là nguồn vốn huy động để nhập khẩu vật tư của những 
+công ty đấu thầu phải là lớn nhất. Dựa vào kinh nghiệm của mình, giảm đốc công ty FASTBUILD biết rằng giá mà các công 
+ty đối thủ đưa ra sẽ không quá 50% vốn điều lệ của họ, như vậy chỉ cần đưa ra giá nhiều hơn 1 đơn vị là sẽ trúng thầu.
+Hãy giúp công ty tìm giả hợp lý nhất.
+Dữ liệu vào:
+- Dòng đầu ghi hai số nguyên dương N và K (N ≤ 10^4, K ≤ N)
+- Dòng tiếp theo gồm N số nguyên dương ai (ai ≤ 10^12)
+Dữ liệu ra: Một số nguyên duy nhất là giá mà công ty cần bỏ ra.
+Ví dụ:
+DAUTHAU.INP    DAUTHAU.OUT
+4 2                  4
+5 9 6 3
+Ràng buộc:
+- 50% số test có N ≤100; a ≤10^6
+- 50% số test còn lại không ràng buộc gì thêm.

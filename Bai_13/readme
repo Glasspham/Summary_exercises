@@ -1,0 +1,12 @@
+Một lần Mr.Bean được bạn gái gửi cho một đây ký tự S độ dài n chỉ gồm các chữ cái in hoa ("A"..."Z"). Bạn gái nhờ 
+Mr.Bean xác định "Độ phân biệt" của dãy ký tự trên Trong đó Độ phân biệt của dãy ký tự là số nguyên dương L nhỏ nhất 
+sao cho tất cả các xâu con của S độ dài L là đôi một phân biệt.
+Chẳng hạn với n = 7; S = 'ABCDABC' thì L=4 do tất cả các xâu con độ dài 4 đều phân biệt. Bạn hãy giúp Mr.Bean việc đó.
+Dữ liệu:
+• Dòng 1: số nguyên dương n (n ≤ 100).
+• Dòng 2: chứa xâu ký tự S
+Kết quả: Gồm một dòng duy nhất ghi một số nguyên duy nhất là "Độ phân biệt" của dãy ký tự S.
+Ví dụ:
+DIFFSSTR.INP      DIFFSSTR.OUT
+7                 4
+ABCDABC

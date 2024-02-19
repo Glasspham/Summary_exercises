@@ -1,0 +1,17 @@
+Cuối năm 2100, các công ty bắt đầu thi công bảo trì các tuyến đê biển. Gói thầu của công ty FASTBUILD là tuyến để có 
+N điểm thi công, mỗi điểm thi công sẽ được thanh toán số tiền tương ứng lần lượt là a1, a2,...,an. Quy tắc thi công là
+phải làm theo thứ tự từ ngoài vào trong, mỗi ngày công ty sẽ thi công một điểm, có thể là điểm đầu hoặc điểm cuối của 
+tuyến đê, sang ngày tiếp theo có thể lựa chọn lại điểm để thi công theo nguyên tắc trên. Do phải đầu tư một số tiền lớn 
+vào nhập khẩu vật tư, trong K ngày tới, công ty cần thu hồi vốn nhiều nhất có thể. Ban giám đốc công ty đã tổ chức họp 
+để tìm ra phương án thu hồi vốn tốt nhất.
+Dữ liệu vào:
+- Dòng đầu ghi hai số nguyễn dương N và K (N ≤ 10^4, K ≤ N)
+- Dòng tiếp theo gồm N số nguyên dương ai (ai ≤ 10^12)
+Dữ liệu ra: Một dòng duy nhất là số tiền nhận được nhiều nhất tỉnh đến ngày thử K.
+Ví dụ:
+THICONG.INP      THICONG.OUT
+7 3                  15
+5 4 1 9 3 8 2
+Ràng buộc:
+-50% số test có N ≤100; a ≤ 10^6
+-50% số test còn lại không ràng buộc gì thêm.

@@ -1,0 +1,15 @@
+Cho Q truy vấn, mỗi truy vấn gồm 2 số nguyên L và R (L < R). Với mỗi truy vấn hãy cho biết có bao nhiều số nguyên tổ 
+trong doan (L,R).
+Dữ liệu vào:
+- Dòng đầu ghi số nguyên dương Q (Q ≤ 10), cho biết số lượng truy vấn. 
+- dòng sau, mỗi dòng ghi hai số nguyên dương L và R (L ≤ R ≤ 10), cách nhau một khoảng trắng.
+Dữ liệu ra: Gồm 2 dòng, mỗi dòng là kết quả tìm được tương ứng với mỗi truy vân.
+Ví dụ:
+DOANNT.INP      DOANNT.OUT
+2                   3
+6 15                0
+24 28
+Ràng buộc:
+-30% số test có Q ≤ 10, L ≤ R ≤ 10^4
+-30% số test có Q ≤ 100, R - L ≤ 10^5
+-40% số test còn lại không ràng buộc gì thêm

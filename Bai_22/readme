@@ -1,0 +1,23 @@
+Chỉ còn vài hôm nữa là Đại nhạc hội chào đón thế kỷ 22 sẽ bắt đầu. Ngày mai, Lan sẽ đón xe khách ở bến xe gần nhà để 
+đi đến địa điểm tổ chức. Tìm hiểu trên website của Sở giao thông vận tải, Lan biết rằng ngày mai có n chuyến xe 
+khách đi đến địa điểm tổ chức, mỗi xe xuất phát vào các thời điểm khác nhau. Theo thông tin mua vé, tại thời điểm 
+khi mỗi xe đến bến, trên xe đã có m người, và ngoài Lan ra, còn có k người khác cùng đăng ký đón xe. Xe chỉ dừng 
+lại đón khách nếu tổng số khách mới và số khách đang có trên xe không vượt quá 60.
+Lan không thích những xe có đủ 60 khách. Cô chỉ muốn đi những xe có càng ít khách càng tốt. Theo kinh nghiệm của Lan, 
+những xe có từ 50 khách trở lên sẽ rất khó để đón thêm khách mới. Do đó cô quyết định lựa chọn một trong những xe này 
+để đi đến địa điểm tổ chức Đại nhạc hội. Em hãy giúp Lan chọn ra những xe tốt nhất trong danh sách các chuyến xe.
+Dữ liệu vào:
+- Dòng đầu ghi số nguyên dương n (n ≤ 10^6).
+- n dòng tiếp theo ghi hai số nguyên m và k (0 ≤ m, k ≤ 60).
+Dữ liệu ra: 
+Một số nguyên dương duy nhất là số lượng xe tốt nhất có thể lựa chọn.
+Ví dụ:
+DONXE.INP    DONXE.OUT      GIẢI THÍCH
+4                2          Có 3 xe có thể đón khách, 
+40 11                       trong đó có 2 xe tốt nhất 
+40 12                       là xe số 1 và xe số 4 
+50 10
+45 6
+Ràng buộc:
+- 50% số test có n ≤ 1000;
+- 50% số test còn lại không ràng buộc gì thêm.
