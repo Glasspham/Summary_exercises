@@ -1,0 +1,17 @@
+Chúng ta biết rằng tiền kim loại của Việt Nam có các loại mệnh giá sau đây:
+5000 đồng
+2000 đồng
+1000 đồng
+500 đồng
+200 đồng
+Một người khách du lịch muốn đối số tiền trị giá N đồng sang dạng tiền kim loại để làm kỉ niệm, du khách đó không muốn nhận quá M đồng tiền kim loại vì cái ví của khách chỉ có sức chứa tối đa như vậy.
+Cho giá trị N và M, hãy tính xem có bao nhiêu phương án đối tiền thỏa mãn nhu cầu của khách.
+Ví dụ: N=2000, M=3 thì có 3 phương án.
+Phương án 1: 1 xu loại 2000 đồng.
+Phương án 2: 2 xu loại 1000 đồng.
+Phương án 3: 1 xu loại 1000 đồng và 2 xu loại 500 đồng.
+(các phương án còn lại chẳng hạn như 4 xu loại 500 đồng bị loại vì vượt quá số tiền khách muốn cầm)
+Yêu cầu cho mọi bài giải:
+Mã nguồn viết bằng python không quá 3000 byte.
+Thời gian tính toán (không tính thời gian nhập liệu) không quá 2 giây.
+Để được điểm tối đa, dữ liệu nhập xuất cần viết chính xác theo nội dung yêu cầu, bao gồm cả chữ hoa, chữ thường, dấu cách và các kí hiệu khác.

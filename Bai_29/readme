@@ -1,0 +1,10 @@
+Cho trớc hai xâu kí tự S1 và S2. Viết chơng trình tính số lần lặp lại của xâu S1 trong xâu S2. Dữ liệu: 
+Vào từ tệp văn bản XAU.INP gồm:
+Dòng đầu tiên chứa xâu S1.
+Dòng thứ hai chứa xâu S2.
+Kết quả: Ghi ra tệp văn bản XAU.OUT: Chỉ một dòng duy nhất ghi số lần lặp lại của xâu S1 trong xâu S2.
+XAU.INP
+aba
+bababababa
+XAU.OUT
+4

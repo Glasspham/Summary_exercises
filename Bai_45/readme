@@ -1,0 +1,6 @@
+Viết Chương trình để tổ chức và quản lý file sinh viên 
+(Họ tên, ngày sinh, giới tính, điểm các môn) với các chức năng : Nhập, xem, xóa, sửa.
+
+Bài code này được biết bên Visual Studio 
+vì có một thư viện Visual Studio Code không hỗ trợ
+#include<filesystem>

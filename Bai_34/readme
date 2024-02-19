@@ -1,0 +1,31 @@
+Cho xâu ký tự T gồm n ký tự chỉ gồm chữ cái, chữ số. Em hãy thực hiện hai thao tác sau:
+- Thao tác 1: Đếm các ký tự là ký tự số trong xâu T;
+- Thao tác 2: Tìm số P trong xâu ký tự T là số nguyên tố lớn nhất. Số P là tất cả các ký tự số liên tiếp
+trong xâu ký tự T và không có số 0 vô nghĩa. Ví dụ trong xâu ký tự T=aB0011cd230d124ab17 có các số
+P là 11, 230, 124, 17. Số nguyên tố P lớn nhất là 17.
+* Dữ liệu vào: Đọc vào từ file văn bản NTMAX.INP gồm một xâu ký tự T.
+* Kết quả ra: Ghi ra file bản NTMAX.OUT gồm:
+- Dòng 1 ghi số lượng các ký tự là ký tự số trong xâu T;
+- Dòng 2 ghi ra số nguyên tố P lớn nhất, nếu không có số P nguyên tố ghi ra số 0.
+* Ví dụ:
+NTMAX.INP  
+aB0011cd230d124ab17 
+NTMAX.OUT
+12
+17
+Giải thích:
+- Có 12 ký tự số trong xâu
+- Số P nguyên tố lớn nhất là 17
+Ab12cd44bcd 
+4
+0
+Tinhoc 
+0
+0
+* Giới hạn:
+- Có 15/35 test, tương ứng 3,0 điểm với n  255 và P  103
+- Có 10/35 test, tương ứng 2,0 điểm với n  255 và P  106
+- Có 10/35 test, tương ứng 2,0 điểm với n  5.106 và P  5.106
+* Lưu ý:
+- Mỗi kết quả đúng được 50% số điểm của test;
+- Thí sinh phải đưa ra đủ 2 kết quả theo cấu trúc của file NTMAX.OUT

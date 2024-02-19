@@ -1,0 +1,7 @@
+Bài 6. Dãy Fibonacci được định nghĩa như sau: 
+F{0}=0
+F{1}=1
+F{n} = F{n-1}+F{n-2} (với n >= 2)
+a) Viết chương trình nhập n từ bàn phím, tạo và in ra màn hình dãy số A bao gồm n số hạng đầu tiên của dãy
+Fibonacci.
+b) Cho số nguyên dương n<10^{9} Phân tích n thành tổng các số Fibonacci khác nhau

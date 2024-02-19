@@ -1,0 +1,13 @@
+Cho mot mang co n phan tu va so nguyen k,voi moi day con lien co chieu dai k
+In ra phan tu lon nhat trong moi day con do
+Input:
+10 3
+1 2 3 1 4 5 1 8 9 7
+Output:
+3 3 4 5 5 8 9 9
+Giải thích:
+n = 10 k = 3
+A = {1 2 3 1 4 5 1 8 9 7}
+(1 2 3)(2 3 1)(3 1 4)...(8 9 7)
+
+

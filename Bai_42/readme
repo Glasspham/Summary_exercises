@@ -1,0 +1,17 @@
+Cho một dãy gồm n số nguyên a1, a2,..., an. Trong mỗi thao tác, ta có thể thay thế hai phần tử bất kỳ bởi tổng của chúng (tổng đó có thể chèn vào vị trí bất kỳ trong dãy). Yêu cầu: Hãy lập trình để tìm số tối đa các phần tử chia hết cho số nguyên K trong dãy kết quả sau khi thực hiện một số lần tùy ý các thao tác nói trên.
+Dữ liệu vào: Đọc từ tệp văn bản MODK. INP gồm:
+- Dòng đầu ghi hai số nguyên dương n và K (n, K ≤ 10⁵);
+-Dòng thứ hai ghi dãy số a1, a2,..., an (0 < ai ≤ 10⁹,1 ≤ i ≤ n);
+-Các số trên một dòng cách nhau ít nhất một dấu cách.
+Kết quả: Ghi vào tệp văn bản MODK. OUT một số nguyên duy nhất là kết quả tim được. Ràng buộc: 
+-Có 30% số điểm tương ứng với n ≤ 10³, K = 4 và ai ≤ 10⁶ (1 ≤ i ≤ n); 
+-Có 30% số điểm tương ứng với n ≤ 10³, K = 5 và ai ≤ 10⁶ (1 ≤ i ≤ n);
+-Có 40% số điểm tương ứng với trường hợp còn lại
+Ví dụ:
+MODK.INP
+5 4
+2 3 4 5 6
+MODK.OUT
+3
+Giải thích
+2 3 4 5 6 -> 4 8 8 (sau 2 thao tác biến đổi để có dãy gồm tối đa 3 phần tử chia hết cho 4)

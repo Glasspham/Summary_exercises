@@ -1,0 +1,12 @@
+Trên một màn hình lớn, người ta lần lượt cho hiện ra các số của một dãy gồm N số nguyên không âm a1, a2, ..., aN và cứ lặp đi lặp lại như thế (nghĩa là sau khi ai xuất hiện vài giây đến lượt a(i+1) xuất hiện, số xuất hiện sau aN là ai)
+Yêu cầu: Bạn được đề nghị tính tổng của K số nguyên liên tiếp xuất hiện trên màn hình bắt đầu từ số nguyên thứ B.
+Dữ liệu vào: Chứa trong file SUM.INP gồm hai dòng:
++ Dòng đầu tiên ghi ba số nguyên N, K và B, 1≤ N ≤10⁴, 1 ≤ k ≤ 2.10⁴, 1 ≤ B ≤ 10⁹
+ + Trong N dòng sau, dòng thứ i chứa chỉ số ai (ai < 2.10⁹). Dữ liệu ra: Ghi ra file SUM.OUT một số là tổng tìm được.
+SUM.INP     SUM.OUT
+5 7 6        32
+3
+2
+7
+9
+6

@@ -1,0 +1,6 @@
+Input: A=[0,1,5,7,0,2,5,1,1,2]  
+Output: Số 0 lặp lại 2 lần
+        Số 1 lặp lại 3 lần
+        Số 5 lặp lại 2 lần
+        Số 7 lặp lại 1 lần
+        Số 2 lặp lại 2 lần

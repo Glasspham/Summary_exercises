@@ -1,0 +1,34 @@
+Bài 1 : 
+Viết chương trình chuyển đổi giá trị độ dài tính bằng mét (m) sang các đơn vị đo dm, cm, mm.
+Bài 2 : 
+2a. Viết hàm kiểm tra xem một chuỗi có phải là mật khẩu hợp lệ hay không. Mật khẩu hợp lệ phải có từ 8 - 10 ký tự, 
+đồng thời chỉ chứa các ký tự chữ cái và chữ số.
+Tiêu đề của hàm là: "def checkPass(pw)":
+2b. Viết chương trình nhập vào một chuỗi và dùng hàm trên để kiểm tra xem chuỗi đã nhập có phải là mật khẩu hợp lệ hay không. 
+Bài 3 :
+Viết chương trình hiển thị tất cả các số chẵn nằm giữa a và b, với a, b là số nguyên dương được nhập vào từ màn hình.
+Bài 4 :
+a. Viết hàm compare(a, b). Hàm trả về 1 nếu a > b, 0 nếu a == b, và -1 nếu a < b
+b.  Viết chương trình nhập vào 2 số a,b và dung hàm trên để trả về kết quả so sánh a với b
+Bài 5 :
+Viết hàm in ra lời chào phù hợp dựa vào thời gian thực theo điều kiện sau:
+-	Good morning (0 – 11:59)
+-	Good afternoon (12 – 15:59)
+-	Good evening (16 - 20:59)
+-	Good night ( 21 – 23:59)
+Bài 6 :
+Viết chương trình để:
+1. Nhập vào danh sách
+2. Tính tổng các phần tử của danh sách
+3. Đảo ngược danh sách và in kết quả danh sách sau khi đảo ngược
+4. Tạo một danh sách mới chứa tất cả các phần tử âm của danh sách ban đầu
+Bài 7 :
+Viết chương trình cho nhập vào 02 số tự nhiên m, n và in ra ước số chung lớn nhất của chúng
+Bài 8 :
+Viết chương trình cho nhập vào 02 số tự nhiên m, n và in ra bội số chung nhỏ nhất của chúng
+Bài 9 :
+Viết chương trình nhập vào 2 list số nguyên. Tạo ra list mới chứa các phần tử
+chung của 2 list đã nhập
+Bài 10 :
+Viết chương trình nhập vào 2 list số nguyên. Tạo ra list mới chứa các phần tử
+riêng của 2 list đã nhập

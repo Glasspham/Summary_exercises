@@ -1,0 +1,7 @@
+Cho dãy số a0, a2,...., a(n-1) 
+a. Nhập số nguyên n, tạo ra mảng số nguyên gồm n phần tử ngẫu nhiên 
+b. Tính tổng các số lẻ trong mảng vừa tạo 
+c. Tìm số chính phương xuất hiện đầu tiên trong mảng nếu có 
+d. Sắp xếp các phần tử trong mảng giảm dần 
+e. Tìm các phần có giá trị nhỏ nhất trong mảng. Xuất ra màn hình vị trí, số lượng các 
+   phần tử có giá trị bằng min 

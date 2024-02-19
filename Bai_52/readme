@@ -1,0 +1,22 @@
+Tổng ước (3 điểm)
+Cho một số nguyên dương K, một số được gọi là số đẹp nếu tổng các ước số dương của số đó không nhỏ hơn K. 
+Ví dụ: cho K = 11 vậy những số đẹp là tổng các ước số dương của số đó lớn hơn hoặc bằng 11,
+như các số 6, 8, 9,... vi 6 có 4 ước số (1 + 2 + 3 + 6 = 12 > 11) , 8 có 4 ước số 
+(1 + 2 + 4 + 8 = 15 > 11) 9 có 3 ước số (1 + 3 + 9 = 13 > 11)
+Cho Q truy vấn, mỗi truy vấn gồm hai số L và R, hãy đếm số lượng số đẹp trong đoạn [L,R]
+Dữ liệu vào từ file văn bản TONGUOC.INP:
+• Dòng đầu tiên gồm hai số nguyên dương K và Q(1 <= K <= 10^{9}, 1 <= Q <= 10^{5})
+• Q dòng sau, mỗi dòng gồm hai số nguyên dương L và R (1 <= L <= R < 10^{6}) mô tả truy
+vấn.
+Kết quả ghi ra file văn bản TONGUOC.OUT:
+Gồm Q dòng, mỗi dòng gồm một số nguyên là kết quả tương ứng của mỗi truy vấn.
+Ví dụ:
+TONGUOC.INP     TONGUOC.OUT     Giải thích
+11 2            
+1 6             1               Các số đẹp ở truy vấn 1 là: 6.
+7 9             2               Các số đẹp ở truy vấn 2 là: 8, 9.
+Ràng buộc:
+Có 30% số test ứng với 30% số điểm của bài thoả mãn: R,Q <= 50;
+20% số test khác ứng với 20% số điểm của bài thoả mãn: R,Q <= 10^{3};
+30% số test khác ứng với 30% số điểm của bài thoả mãn: R,Q <= 10^{5};
+20% số test còn lại ứng với 20% số điểm của bài không có ràng buộc gì thêm.

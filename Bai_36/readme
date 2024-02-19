@@ -1,0 +1,3 @@
+Viết chương trình nhập vào 1 dãy số nguyên gồm N phần tử. Sắp xếp 
+dãy thành 1 dãy có tính chất: các phần tử âm đứng trước được sắp xếp giảm 
+dần, các phần tử dương đứng sau cùng được sắp xếp tăng dần.

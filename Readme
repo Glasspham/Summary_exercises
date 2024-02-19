@@ -1,0 +1,22 @@
+Hãy nhập vào số nguyên n, thực hiện thay thế các chữ số 0 trong biểu diễn thập phân của n thành các chữ số 5 và in ra kết quả.
+Ví dụ : với n=1005 thì sau khi thực hiện thay thế ta thu được số 1555
+Còn với n=1234 , thì ta không có chữ số nào bị thay thế và kết quả vẫn là số 1234
+
+Đầu vào:
+-Dòng đầu tiên của đầu vào chứa số nguyên T cho biết số bộ dữ liệu cần kiểm tra.
+-Mỗi bộ dữ liệu gồm một dòng chứa một số nguyên n.
+
+Đầu ra:
+-Ứng với mỗi bộ dữ liệu đầu vào , chương trình của bạn cần in ra số n sau khi thay thế các chữ số của n theo yêu cầu đề bài
+
+Ràng buộc
+-1 ≤ T ≤ 105
+-0 ≤ n ≤ 1012
+
+Ví dụ:
+Đầu vào Đầu ra
+2
+1005
+1234
+1555
+1234

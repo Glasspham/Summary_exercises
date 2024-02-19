@@ -1,0 +1,5 @@
+Liệt kê các số trong chính đoạn [x,y]
+Input: 1 dòng duy nhất là giá trị của x và y (cách nhau bởi dấu cách) trong file CHINHPHUONG.INP
+Output: in ra những con số là số chính phương trên cùng 1 dòng (cách nhau bởi dấu cách)
+CHINHPHUONG.INP     CHINHPHUONG.OUT
+1 10                1 4 9 

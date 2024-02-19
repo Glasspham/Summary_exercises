@@ -1,0 +1,23 @@
+Cho dãy n số nguyên dương A[1..n] và một chữ số k. Hãy đếm số lần xuất hiện chữ số k trong dãy A đã 
+cho
+Ví dụ
+Với dãy A[]={11, 12, 13, 14, 15} và k=1 thì có 6 lần xuất hiện chữ số 1 trong dãy A
+Đầu vào
+Dòng đầu tiên của đầu vào chứa số nguyên T cho biết số bộ dữ liệu cần kiểm tra. Mỗi bộ dữ liệu gồm:
++ Dòng đầu chứa lần lượt hai số nguyên n và k là số phần tử trong dãy A[] và chữ số k
++ Dòng thứ hai chứa n số nguyên cách nhau một dấu cách, mô tả các phần tử của dãy A
+Đầu ra
+Với mỗi bộ dữ liệu vào, chương trình của bạn cần in ra một dòng chứa kết quả của bài toán tương ứng 
+với bộ dữ liệu đầu vào đó
+Ràng buộc
+1<=T<=100 
+1<=n<=100 
+0<=k<=9
+1<=A[i]<=1000(i = 1..n)
+Ví dụ:
+Đầu vào Đầu ra
+2
+5 1
+11 12 13 14 15
+4 0
+0 10 20 30 6

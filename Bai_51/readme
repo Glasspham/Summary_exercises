@@ -1,0 +1,11 @@
+Một cụm trong một biểu thức toán học là đoạn nằm giữa hai dầu đóng và mở ngoặc đơn ().
+Yêu cầu: Với mỗi biểu thức cho trước hãy tách các cụm của biểu thức đó.
+Dữ liệu vào trong file văn bản CUM.INP chứa một dòng kiểu xâu kí tự (string) là biểu thức cần xử lí (không quá 255 ký tự).
+Dữ liệu ra ghi vào file văn bản CUM.OUT, dòng đầu tiên ghi d là số lượng cụm. Tiếp đến là ở dòng, mỗi dòng ghi một cụm được tách từ biểu thức. Trường hợp gặp lỗi cú pháp ghi số - 1.
+Ví dụ: 
+CUM.INP                     CUM.OUT 
+x*(a+1)*((b-2)/(c+3))       4
+                            (a+1) 
+                            (b-2)
+                            (c+3)
+                            ((b-2)/(c+3))

@@ -1,0 +1,15 @@
+Xâu đối xứng là xâu có độ dài ít nhất bằng 1, và không thay đổi khi đọc từ trái sang phải hoặc từ phải 
+sang trái.
+Cho một xâu ký tự S (chỉ gồm các chữ cái In thường) có độ dài tối đa là 5000 ký tự.
+Hãy tìm một xâu con liên tiếp đối xứng dài nhất của S.
+Input: maxpalin.inp
+Dòng đầu tiên chứa số nguyên n (1 ≤ n ≤ 5000) – độ dài của xâu S Dòng thứ hai chứa xâu S – chỉ gồm các 
+chữ cái in thường
+Output: maxpalin.out
+Đưa ra độ dài của xâu con liên tiếp đồi xứng dài nhất
+Ví dụ
+maxpalin.inp                            maxpalin.out
+32                                      21
+fhjabgthettiyryittehtgbayutuyice        
+
+

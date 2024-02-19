@@ -1,0 +1,7 @@
+Cho một xâu S chỉ gồm các chữ cái in thường với độ dài tối đa 250 ký tự. Em hãy viết chương trình để tạo ra xâu SG từ xâu S bằng cách xóa các 
+ký tự liên tiếp giống nhau trong xâu S và chỉ để lại một kí tự đại diện trong đoạn đó.
+Dữ liệu vào: Đọc từ file văn bản XAUGON INP chứa xâu S chỉ gồm các chữ cái in thường. Kết quả: Ghi ra file văn bản XAUGON OUT là xâu SG tìm
+XAUGON.INP
+hhooocccsssiinnnhhh
+XAUGON OUT
+hocsinh được.
