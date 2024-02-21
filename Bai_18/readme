@@ -13,5 +13,5 @@ THICONG.INP      THICONG.OUT
 7 3                  15
 5 4 1 9 3 8 2
 Ràng buộc:
--50% số test có N ≤100; a ≤ 10^6
+-50% số test có N ≤ 100; a ≤ 10^6
 -50% số test còn lại không ràng buộc gì thêm.
