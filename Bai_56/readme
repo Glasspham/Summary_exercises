@@ -1,0 +1,12 @@
+Một robot xuất phát từ vị trí (0,0) mặt quay về hướng Bắc (hướng lên trên). Mỗi lần chỉ có
+một trong 4 lệnh chuyển động là G, L, R, B tương ứng là tiến lên trên phía trước mặt, tiến
+sang trái, tiến sang phải, quay lại phía sau lưng một đơn vị. Cho dãy lệnh chuyển động. Hãy
+tìm xem vị trí cuối cùng của robot là vị trí nào?
+Input:
++Dòng đầu tiên ghi n (n <= 100) là số lệnh robot cần thực hiện.
++Dòng thứ hai là dãy n ký tự mô tả dãy lệnh robot thực hiện
+Output:
+- Hai số nguyên là tọa độ (x,y) của vị trí cuối cùng robot
+Input   Output
+4       2 -2
+BLGR
