@@ -1,0 +1,14 @@
+Cho hai số nguyên dương n và m. Ta sắp xếp n số nguyên dương liên tiếp 1, 2, 3, , n thành một dãy gồm có m đoạn 
+liên tiếp như sau: Đoạn thứ nhất gồm tất cả các số chia hết cho m, đoạn thứ hai gồm tất cả các số chia m dư 1, 
+đoạn thứ ba gồm tất cả các số chia m dư 2, , đoạn thứ m gồm tất cả các số chia m dư m  1. Các số trong mỗi đoạn 
+cũng được sắp xếp theo thứ tự tăng dần. 
+Yêu cầu: Cho trước 3 số nguyên dương n, m, t. Tìm số thứ  t trong dãy sắp thứ tự như trên. 
+Ví dụ: Với n = 10, m = 4, t = 8. 
+Dãy số được sắp xếp như sau: 4, 8, 1, 5, 9, 2, 6, 10, 3, 7 
+Số hạng thứ 8 trong dãy trên là 10 
+Dữ liệu: Vào từ  file văn bản SORT.INP gồm ba số nguyên dương n, m, t  nằm trên một dòng (1 < m < n  1016 , m  106 , t  n),
+mỗi số cách nhau ít nhất một dấu cách.
+Kết quả: Ghi ra file văn bản SORT.OUT một số X là số hạng thứ  t  trong dãy sắp thứ tự như trên. 
+Ví dụ: 
+SORT.INP	SORT.OUT
+10 4 8 	    10
