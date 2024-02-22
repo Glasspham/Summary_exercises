@@ -1,0 +1,17 @@
+CỔ VẬT - SAMPLE 
+Một nhà khảo cổ học đã vào trong một khu mộ cổ. Bằng kinh nghiệm của mình ông ta nhìn ra ngay giá trị của 
+các mẫu có trong khu mộ. Trong đó có N mẫu, mỗi mẫu có một khối lượng Pi và một giá trị Vị. Ông ta chỉ có 
+M cái túi và mỗi túi chỉ chứa được 1 mẫu với khối lượng tối đa Ci
+Yêu cầu: Tính tổng giá trị tối đa của những mẫu mà nhà khảo cổ có thể mang về.
+Dữ liệu vào: Cho trong tập tin văn bản SAMPLE.INP gồm:
+Dòng đầu 2 số nguyên N, M số mẫu và số túi của nhà khảo cổ. (1 ≤ N,M ≤ 300000), N dòng sau, mỗi dòng gồm 
+2 số nguyên Pi, V, lần lượt là khối lượng và giá trị của mỗi mẫu. (1 ≤ Pi,Vi ≤ 1000000)
+M dòng kế tiếp, mỗi dòng gồm một số nguyên C, là khối lượng tối đa của túi tương
+ứng có thể chứa. (1 ≤ Ci ≤ 100000000) Kết quả: Ghi vào tập tin văn bản SAMPLE.OUT gồm một số duy nhất là 
+tổng giá trị tối đa mà nhà khảo cổ có thể mang về.
+Ví dụ:
+SAMPLE.INP      SAMPLE.OUT
+21              10
+5 10
+100 100
+12
