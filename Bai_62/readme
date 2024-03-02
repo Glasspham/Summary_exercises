@@ -1,0 +1,17 @@
+Câu 4: Xâu con
+Cho trước một xâu có độ dài L (1 ≤ L ≤ 2.10^5) chỉ chứa các chữ cái thường trong bảng chữ cái
+tiếng Anh.
+Yêu cầu: Hãy tìm xâu con dài nhất xuất hiện ít nhất 2 lần trong xâu đã cho.
+Dữ liệu vào từ file XAU.INP:
+Dòng đầu la một số nguyên L.
+Dòng sau là một xâu có độ dài L.
+Kết quả ghi ra file XAU.OUT: Chỉ một số duy nhất là độ dài của xâu con tìm được, nếu không
+tìm được thì ghi ra 0.
+Ví dụ:
+XAU.INP                 XAU.OUT
+11                      3
+sabcabcfabc 
+18                      4
+trutrutiktiktappop
+6                       0
+abcdef
