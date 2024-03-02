@@ -1,0 +1,11 @@
+Bài 4 (3 điểm): Giai thừa.
+Cho trước số tự nhiên N.
+Yêu cầu: Tìm số tự nhiên K nhỏ nhất sao cho K! có đúng N chữ số.
+Dữ liệu vào: Đọc từ tệp BAI4.INP gồm một dòng chứa số tự nhiên N (1≤ N≤ 104).
+Dữ liệu ra: Ghi ra tệp BAI4.OUT kết quả tìm được. Nếu không có số K nào thoả mãn
+yêu cầu đề ra thì ghi -1.
+Ví dụ:
+BAI4.INP
+4
+BAI4.OUT
+5
