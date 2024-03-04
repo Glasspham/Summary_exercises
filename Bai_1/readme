@@ -1,19 +1,22 @@
-Đây là những bài tập ôn thi Học Sinh giỏi cấp tỉnh và...
-Trong đây có ghi sẵn chi tiết đề bài và hướng dẫn giải bằng
-2 ngôn ngữ lập trình chính như trong đề thi cho phép lầ C++
-và Python.
-Vì tôi biết chương trình bằng Visual Studio Code nên bên C++
-có vài cái thư viện gọi nhanh #include<bits/stdc++.h> thì có
-nhiều IDE khác không nhận được thì các bạn tự sửa phần thư 
-viện nha. 
-IDE VScode tôi bị với Python khi gọi file .INP không thì không
-được phải đưa cả đường link dẫn đến file .INP mới được. Và tôi
-sẽ chỉ bạn cách lấy đường dẫn nếu ai gặp trường hợp như tôi.
-Open "File Explorer" or "This PC" và tìm kiếm cái chỗ lưu trữ
-bài code với cái file .INP bạn tạo xong ở trên có thanh ở giữa
-là thành Address nhấn vào đó để sao chép địa chỉ rồi dán vào 
-trong đoạn code. Còn nếu trong IDE Visual Studio Code thì chỉ
-cần chuột phải chọn "Copy path" or (Shift + Alt + C) là xong.
-Và nhớ tự đọc đề là thử trước và xem các giải sau. Lưu ý cách 
-giải chưa chắc là tốt nhất, bạn có thể tham khảo y tưởng và 
-diễn lại theo ý mình.
+Hãy nhập vào số nguyên n, thực hiện thay thế các chữ số 0 trong biểu diễn thập phân của n thành các chữ số 5 và in ra kết quả.
+Ví dụ : với n=1005 thì sau khi thực hiện thay thế ta thu được số 1555
+Còn với n=1234 , thì ta không có chữ số nào bị thay thế và kết quả vẫn là số 1234
+
+Đầu vào:
+-Dòng đầu tiên của đầu vào chứa số nguyên T cho biết số bộ dữ liệu cần kiểm tra.
+-Mỗi bộ dữ liệu gồm một dòng chứa một số nguyên n.
+
+Đầu ra:
+-Ứng với mỗi bộ dữ liệu đầu vào , chương trình của bạn cần in ra số n sau khi thay thế các chữ số của n theo yêu cầu đề bài
+
+Ràng buộc
+-1 ≤ T ≤ 105
+-0 ≤ n ≤ 1012
+
+Ví dụ:
+Đầu vào Đầu ra
+2
+1005
+1234
+1555
+1234
