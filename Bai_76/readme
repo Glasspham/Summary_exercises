@@ -1,0 +1,26 @@
+Dãy con liên tiếp.
+Cho day so nguyen dương gom N phần tử A1, A2, ... , An.
+Yêu cầu: Hãy liệt kê tất cả các dãy con gồm các phần tử đứng liên tiếp của day trên sao cho
+tổng giá trị các phần tử của dãy con đó bằng M.
+Dữ liệu vào: Cho trong file văn bản DAYCONLT.INP, có cấu trúc như sau:
+- Dòng 1: Ghi 2 số nguyên dương N và M. Hai số được ghi cách nhau ít nhất một dấu cách.
+(1 ≤ N ≤ 1000, 1 ≤ M ≤ 32000)
+- Dòng 2: Ghi N số nguyên dương A,. Các số được ghi cách nhau ít nhất một dấu cách. (1s
+Ai ≤10000)
+Dữ liệu ra: Ghi ra file văn bản DAYCONLT.OUT, gồm nhiều dòng. Mỗi dòng ghi một dãy
+con tìm được. Các dãy con được ghi theo thứ tự xuất hiện của nó trên dãy ban đầu. Các số
+trên cùng một dòng được ghi cách nhau ít nhất một dấu cách.
+Nếu không tìm được dãy con thỏa mãn điều kiện thì ghi ra file một số: 0.
+DAYCONLT.INP
+11 6
+1 4 3 1 2 1 6 5 1 4 1
+DAYCONLT.OUT
+3 1 2
+6
+5 1
+1 4 1
+DAYCONLT.INP
+5 6
+1 2 5 2 1
+DAYCONLT.OUT
+0
