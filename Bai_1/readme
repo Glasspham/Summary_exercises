@@ -10,8 +10,8 @@ Còn với n=1234 , thì ta không có chữ số nào bị thay thế v
 -Ứng với mỗi bộ dữ liệu đầu vào , chương trình của bạn cần in ra số n sau khi thay thế các chữ số của n theo yêu cầu đề bài
 
 Ràng buộc
--1 ≤ T ≤ 105
--0 ≤ n ≤ 1012
+-1 ≤ T ≤ 10^5
+-0 ≤ n ≤ 10^12
 
 Ví dụ:
 Đầu vào Đầu ra
