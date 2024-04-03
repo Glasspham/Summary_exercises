@@ -1,0 +1,39 @@
+Số nguyên tô song sinh Sô tự nhiên p là sô nguyên tô nêu p lớn hơn 1 và chỉ
+có 2 ước là 1 và p. Sô tự nhiên x1 gọi là sô nguyên tô song sinh nêu tôn tại sô tự nhiên
+x2 thỏa mãn đồng thời:
+- Số x2 khác sô x1, - Sô x1 và sô x2 là các sô nguyên tô;
+- Khi viêt ngược lại sô x1 ta được x2 và ngược lại. Ví dụ: sô 13 là sô nguyên
+tô song sinh vi sô 31 là sô nguyên tô, các sô 7, 11, 19, 14 không là sô nguyên tố song
+sinh.
+Yêu câu: Cho 2 sô tự nhiên a và b. Tính tông các sô nguyên tô và đêm sô lượng sô
+nguyên tô song sinh thuộc đoạn [a, b].
+Dữ liệu vào: Đọc từ tệp văn bản TWINS.INP gôm:
+- Dòng đầu tiên ghi sô nguyên dương T(T ≤ 10^6);
+- T dòng tiêp theo, môi dòng ghi 2 sô tự nhiên a vàb (a≤ b≤106). Môi sô cách
+nhau một dâu cách.
+Kêt quả ra: Ghi ra tệp văn bản TWINS.OUT gôm T dòng, môi dòng ghi 2 sô là tông
+các số nguyên tô và số lượng so nguyên tô song sinh thuộc đoạn [a, b] tương ứng (các
+sô cách nhau một dâu cách).
+TWINS.INP
+1
+3 13
+TWINS.OUT
+39 1
+Giải thích
+* Đoạn [3, 13] có các số nguyên tổ là: 3, 5, 7, 11, 13:
+- Tổng các số nguyên tố là: 39;
+- Số lượng số nguyên tổ song sinh là: 1 (số nguyên tổ song sinh là số 13).
+TWINS.INP
+2
+2 10
+15 20
+TWINS.OUT
+17 0
+36 1
+Giải thích
+* Đoạn [2, 10] có các số nguyên tổ là: 2, 3, 5, 7:
+- Tổng các số nguyên tổ là: 17;
+- Số lượng số nguyên tổ song sinh là: 0.
+* Đoạn [15, 20] có các số nguyên tổ là: 17, 19:
+- Tổng các số nguyên tố là: 36;
+- Số lượng số nguyên tổ song sinh là: I (số nguyên tổ song sinh là 17).

@@ -1,0 +1,17 @@
+CHỮ SỐ CUỐI CÙNG (5 điểm)
+An và Bình là hai bạn học sinh rất thông minh trong đội tuyển học sinh giỏi
+Tin học. Một hôm, cô giáo muốn giao một thử thách tính nhanh cho hai bạn. Cô sẽ
+tìm ra bạn nào có nhiều câu trả lời đúng và nhanh nhất để trao phần thưởng. Với m
+và n là hai số nguyên dương có nhiều chữ số thì m mũ n sẽ cho một kết quả rất lớn.
+Để thử thách hai bạn, câu hỏi cô giáo đưa ra là hãy tìm ra chữ số cuối cùng của m
+mũ n (1 ≤ m, n ≤ 10^6).
+Yêu cầu: Cho hai số nguyên dương m và n. Hãy xác định chữ số cuối cùng của m
+mũ n?
+Dữ liệu vào: Từ tệp CHUSO.INP gồm 1 dòng chứa hai số nguyên dương m
+và n (1 ≤ m, n ≤ 10^6).
+Kết quả: Ghi vào tệp CHUSO.OUT một số nguyên duy nhất là chữ số cuối
+cùng của m mũ n.
+Ví dụ:
+CHUSO.INP   CHUSO.OUT
+21 4        1
+27 5        7

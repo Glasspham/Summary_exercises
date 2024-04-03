@@ -1,0 +1,9 @@
+Tam giác cân là tam giác có 2 cạnh bằng nhau. Tam giác đều là trường hợp riêng
+của tam giác cân. Cho đa giác đều n đinh. Hãy xác định số tam giác cân có đinh đồng
+thời là đinh của đa giác đều.
+Ví dụ, với n = 5 ta có 10 tam giác cân.
+Dữ liệu: Vào từ file ISOSCELE.INP gồm một dòng chứa số nguyên n (3 ≤ n ≤ 10^9).
+Kết quả: Đưa ra file văn bản ISOSCELE.OUT một số nguyên - số tam giác cân xác
+định được
+ISOSCELE.INP    ISOSCELE.OUT
+5               10

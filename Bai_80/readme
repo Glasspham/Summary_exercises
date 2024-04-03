@@ -1,0 +1,5 @@
+Bài 1: Cho dãy số bất kỳ xắp xếp dãy số giảm dần( dùng thuật toán chèn tuyến tính).
+Bài 2: Cho mảng hai chiều gồm n hàng và m cột:
+a. Tính tổng các phần tử lẻ ở hàng I của mảng
+b. Chèn thêm các giá trị vào mảng
+c. Xóa các giá trị của mảng (ví dụ: xóa đi 3 ký tự)

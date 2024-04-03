@@ -1,0 +1,3 @@
+1. Tính tuổi dựa trên ngày tháng năm sinh nhập vào.
+Gợi ý: Sử dụng "datetime" của Pythpn và "time.h" của C++ 
+chúng ta có thể tim tuổi bằng cách trừ năm sinh cho năm hiện tại.

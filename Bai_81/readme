@@ -1,0 +1,13 @@
+Dọc theo một con đường thẳng người ta trồng một hàng gồm n cây xanh có khoảng các
+đều nhau. Để trang trí cho con đường vào ban đêm, người ta gắn lên hàng cây một số bóng đèn
+theo quy tắc xen kẽ, cứ hai cây liền kề nhau thì một cây được gắn đèn, một cây không gắn đèn
+Biết rằng để gắn một bóng đèn lên một cây thì cần chi phí với số tiền là x đồng và cây đầu tiên
+luôn được gắn bóng đèn
+Yêu cầu: Hãy tính tổng chi phí để gắn được nhiều bóng đèn nhất cho hàng cây.
+Dữ liệu vào: chỉ gồm một dòng ghi hai số nguyên n và x cách nhau một dấu cách.
+Giới hạn:
++1 ≤ n ≤ 10^9
++1 ≤ x ≤ 10^3
+Kết quả: Ghi một số nguyên là kết quả tìm được của bài toán.
+trangtri.inp    trangtri.out
+5 10            30

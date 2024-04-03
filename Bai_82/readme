@@ -1,0 +1,38 @@
+cho day N số nguyên dương a1, a2, ... an
+với bội ba số (i,j,k) hãy tìm giá trị S=2Ai-3Aj+5Ak
+sao cho S đạt giá trị lớn nhất.
+Input dòng đầu tiên chứa số n
+dòng thứ 2 chứa số nguyên dương a1,a2, ... an cách nhau bằng 1 dấu cách
+output lấy ra S lớn nhất tìm được
+
+Giải thích các giải
+Thuật toán này sử dụng một cách tiếp cận động để tìm giá trị lớn nhất của 
+biểu thức S = 2Ai - 3Aj + 5Ak trong tập hợp các số nguyên dương a1, a2, ..., an.
+Cụ thể, thuật toán thực hiện các bước sau:
+
+1. Khai báo các biến và mảng:
+   - n: số lượng số nguyên dương.
+   - a: mảng chứa các số nguyên dương a1, a2, ..., an.
+   - maxx: mảng lưu giữ giá trị lớn nhất tới thời điểm hiện tại.
+   - maxn: mảng lưu giữ giá trị lớn nhất từ thời điểm hiện tại tới cuối mảng.
+   - s: biến lưu giữ giá trị lớn nhất của biểu thức S tìm được.
+
+2. Tính toán giá trị lớn nhất tại mỗi vị trí i:
+   - Duyệt qua từng phần tử trong mảng a.
+   - Tại mỗi vị trí i, gán maxx[i] bằng giá trị lớn nhất của a[i] và maxx[i - 1]
+   (giá trị lớn nhất tới thời điểm trước đó).
+
+3. Tính toán giá trị lớn nhất từ vị trí i tới cuối mảng:
+   - Duyệt từ cuối mảng về đầu mảng.
+   - Tại mỗi vị trí i, gán maxn[i] bằng giá trị lớn nhất của a[i] và maxn[i + 1]
+   (giá trị lớn nhất từ thời điểm hiện tại tới cuối mảng).
+
+4. Tìm giá trị lớn nhất của biểu thức S:
+   - Duyệt qua từng phần tử trong mảng a (trừ phần tử đầu tiên và cuối cùng).
+   - Tại mỗi vị trí i, tính giá trị của biểu thức S = 2 * maxx[i - 1] - 3 * a[i] + 5 * maxn[i + 1] 
+   và cập nhật giá trị lớn nhất cho s.
+
+5. In ra giá trị lớn nhất của biểu thức S.
+
+Thuật toán này cải thiện hiệu suất tính toán bằng cách sử dụng các mảng phụ để lưu giữ các giá trị 
+lớn nhất tại mỗi vị trí và giảm bớt số lần tính toán lặp lại.

@@ -1,0 +1,17 @@
+Bài 4.
+- Nhập từ bàn phím hai số thực: a và b;
+- Nhập từ bàn phím một toán tử (+, -, *, /);
+- In lên màn hình kết quả của biểu thức tương ứng;
+- Chương trình se lặp lại việc tính trên cho đến khi
+bấm phím T hoặc t thì kết thúc.
+Ví dụ:
+a=2.5
+b=10
+Toan tu:+
+2.5+10=12.5
+Tiep tuc:x
+a=2.5
+b=10
+Toan tu :*
+2.5*10=25
+Tiep tuc:t
