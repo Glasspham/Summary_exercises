@@ -1,0 +1,17 @@
+Số vòng
+Người ta định nghĩa số vòng là một số tự nhiên mà chữ số đầu trùng với chữ số cuối của nó. Ví dụ: 3013, 101, 88, 8 là những số vòng.
+Cho 2 số nguyên dương L, R. Hãy đếm số lượng số vòng trong đoạn đó.
+Yêu cầu: Hãy viết chương trình đếm số lượng số vòng trong đoạn (L, R).
+Dữ liệu vào: Từ tệp văn bản CIRCLE.INP gồm hai số nguyên dương L, R (L và R cách nhau một dấu cách, 1 ≤ L ≤ R ≤ 10^18).
+Kết quả: Ghi ra tệp văn bản CIRCLE.OUT một số duy nhất là số lượng số vòng trong đoạn (L, R).
+Ví dụ:
+CIRCLE.INP: 9 13
+CIRCLE.OUT: 2
+Giải thích: Có 2 số thòa là: 9 và 11
+CIRCLE.INP: 1 12
+CIRCLE.OUT: 10
+Ràng buộc:
+• Có 40% test tương ứng 40% số điểm của bài với L < R ≤10.
+• Có 20% test tương ứng 20% số điểm của bài với L < R ≤ 10⁶.
+• Có 20% test tương ứng 20% số điểm của bài với L < R ≤ 10⁹.
+• Có 20% test tương ứng 20% số điểm còn lại của bài với L < R ≤ 10¹⁸.

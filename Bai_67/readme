@@ -1,0 +1,14 @@
+Câu 2. Cho X và Y là hai chữ số may mắn. Một số được gọi là may mắn nếu số lượng chữ số may mắn
+trong số đó là một chữ số may mắn.
+Yêu cầu: hãy kiểm tra một số có là số may mắn không? Các số có thể có chữ số 0 ở đầu.
+Dữ liệu vào:
+- Dòng đầu tiên chứa hai số X, Y (0 ≤ X,Y ≤ 9) là 2 chữ số may mắn.
+- Dòng tiếp theo là một số nguyên dương n (0 ≤ n ≤ 10^18) là số cần kiểm tra xem có phải số
+may mắn không.
+Kết quả: ghi ra YES nếu số nguyên dương n là số may mắn, ngược lại ghi ra NO.
+Ví dụ:
+INPUT       Output
+6 3
+5693389     YES
+1 2
+68833       NO

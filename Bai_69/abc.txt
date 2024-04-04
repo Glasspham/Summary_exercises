@@ -1,0 +1,8 @@
+Đây là một ví dụ về nội dung abc.txt.
+Nội dung này có chứa các số sau đây:
+123
+456.789
+999
+10 20 30
+Còn một vài chữ và ký tự khác.
+Kết thúc ví dụ.

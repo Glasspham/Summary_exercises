@@ -1,0 +1,16 @@
+Chia dãy (chiaday)
+Cho dãy gồm 𝑛 số nguyên 𝑎1, 𝑎2, . . . , 𝑎𝑛. Ta chia dãy số đã cho thành 2 dãy con như sau:
++ Dãy con thứ nhất gồm 𝑘 số đầu tiên (1 ≤ 𝑘 ≤ 𝑛), tổng các số của dãy con này là 𝑇1.
++ Dãy con thứ hai gồm các số còn lại của dãy số đã cho và có tổng là 𝑇2.
+Yêu cầu: Tìm số nguyên dương 𝑘 nhỏ nhất sao cho |𝑇1 − 𝑇2| nhỏ nhất.
+Dữ liệu vào:
+- Dòng đầu tiên ghi một số nguyên dương 𝑛 (𝑛 ≤ 10^6).
+- Dòng thứ hai ghi 𝑛 số nguyên 𝑎1, 𝑎2, . . . , 𝑎𝑛 (𝑎𝑖 ≤ 10^9, 1 ≤ 𝑖 ≤ 𝑛), mỗi số cách nhau một khoảng trắng.
+Dữ liệu ra:
++ Ghi ra số nguyên dương 𝑘.
+Ví dụ:
+Input 
+6
+4 7 1 1 4 6
+Output
+2

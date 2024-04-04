@@ -1,0 +1,4 @@
+Viết chương trình nhập vào mảng 2 chiều A gồm N dòng và N cột các số nguyên bất kỳ
+sau đó:
+Tính tổng giá trị của đường chéo chính. In kết quả ra màn hình.
+Tính tổng giá trị của đường chéo phụ. In kết quả ra màn hình.
