@@ -1,0 +1,14 @@
+Một số gọi là số đặc biệt nếu tổng các ước số của nó (không kê chính nó) lớn hơn
+nó. Vĩ dụ số 12 là một số đặc biệt vì: tổng các ước 1 +2 + 3 + 4 + 6 = 16 > 12.
+Yêu cầu: Hãy đếm xem có bao nhiêu số đặc biệt trong đoạn [L, R].
+Đữ liệu: từ file văn bản sodacbiet.inp một đòng duy nhất chữa hai số nguyên L và R
+Kết quả: ghi ra file văn bản sodacbiet.out một đòng duy nhất là số đặc biệt trong đoạn
+từ L đến R.
+Ví dụ:
+sodacbiet.inp   sodacbiet.out   Giải thích
+1 50            9               Từ 1 đến 50 có 9 số đặc biệt: 12, 18, 20,
+                                24, 30,36, 40. 42, 48
+Giới hạn:
+· Subtask1: 60% số test ứng với 1 ≤ L ≤ R ≤ 10^3
+· Subtask2: 20% số test ứng với 1 ≤ L ≤ R ≤ 10^5
+· Subtask3: 20% số test còn lại ứng với 1 ≤ L ≤ R ≤ 3.10^6.
