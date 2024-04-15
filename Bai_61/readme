@@ -1,0 +1,8 @@
+Cho tệp BAI1.INP chứa hai số nguyên dương n và k bất kì (n, k ≤ 10^9).
+Viết chương trình đưa ra số cách chọn k phần tử trong n phần tử. 
+Vì số cách chọn có thể rất lớn nên chỉ cần in ra kết quả là phần dư của số cách chọn k phần tử chia 
+cho 2018. Kết qua ghi vào tệp BAI1.OUT
+BAI1.INP
+999999 999995
+BAI1.OUT
+477

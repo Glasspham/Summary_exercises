@@ -1,0 +1,12 @@
+Cho số nguyên n, hãy phân tích n thành tích luỹ thừa của các thừa số nguyên tố phân biệt.
+Dữ liệu
+Dữ liệu bao gồm nhiều số n (1 ≤ n ≤ 10^15), mỗi số in trên một dòng. Input sẽ kết thúc bằng số 0. 
+Dữ liệu đảm bảo không có quá 10 số.
+Kết quả
+Với mỗi số, in trên một dòng cách phân tích số n theo dạng <p1>^<z1>, <p2>^<z2>, ... (không Z1 Z2 bao gồm dấu ngoặc kép)
+với p1 < p2 < ... và n = p1^z1 p2^z2 
+Dữ liệu             Kết quả
+3111989             317^1 9817^1
+13091989            17^2 89^1 509^1
+77145199750673      328439^1 234884407^1
+0
