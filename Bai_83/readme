@@ -1,0 +1,18 @@
+Cuối năm, Coopmart Lagi tổ chức chương trình bóc thăm nhằm tri ân khách hàng trong một năm mua sắm bằng cách mỗi khách hàng sẽ được bóc hai số may mắn là 2 số nguyên dương n và k. Khách hàng sẽ nhận được số tiền khuyến mãi tư số n sau khi xoá đúng k chữ số (k nhỏ hơn số chữ số của n)
+Yêu cầu: Gia đình bạn là một khách hàng của Coopmart, bạn hãy tìm cách xoá đi k chữ số của số n để số nhận được là lớn nhất.
+Dữ liệu vào: Được cho trong file văn bản BAI2.INP
+- Dòng đầu tiên chứa số nguyên dương n (số chữ số của nó 10^5)
+- Dòng thứ 2 là số k (k nhỏ hơn số chữ số của n)
+Kết quả: Ghi ra file văn bản BAI2.OUT: số lớn nhất sau khí xoá k chữ số của số n
+Ví dụ:
+BA12.INP
+49928   
+2
+BAI2.OUT
+998
+
+BAI2.INP
+7412349
+6
+BAI2.OUT
+7412349
