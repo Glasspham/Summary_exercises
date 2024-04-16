@@ -1,5 +1,5 @@
 # Đọc dữ liệu từ file
-with open('E:\Project Visual Studio Code\Summary_exercises\Bai_82\BAI2.INP', 'r') as f:
+with open('BAI2.INP', 'r') as f:
     n = f.readline().strip()
     k = int(f.readline())
 
@@ -16,5 +16,5 @@ for digit in n:
 result = ''.join(stack[:len(stack) - remaining])
 
 # Ghi kết quả vào file
-with open('E:\Project Visual Studio Code\Summary_exercises\Bai_82\BAI2.OUT', 'w') as f:
+with open('BAI2.OUT', 'w') as f:
     f.write(result)
