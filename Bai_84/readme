@@ -1,0 +1,15 @@
+Một mật khẩu tối ưu là một mật khẩu có chiều dài hơn 8 ký tự và có đầy đủ 4 loại kí
+tự: chữ số, chữ cái in hoa, chữ cái thường và kí tự đặc biệt. Yêu cầu: Viết chương trình 
+kiểm tra một dòng ký tự bất kỳ có phải là mật khẩu tối ưu không?
+Dữ liệu vào: Trong tập tin BAI3.INP chứa một dòng ký tự bất kỳ (không quá 300 ký tự)
+Kết quả: Ghi vào tệp BAI3. OUT kết quả thông báo mật khẩu có tối ưu không
+Ví Dụ:
+BAI3.INP
+AdhitI*9e8@
+BAI3.OUT
+Tối ưu
+
+BAI3.INP
+mAiiii6mmmm
+BAI3.OUT
+Không tối ưu
