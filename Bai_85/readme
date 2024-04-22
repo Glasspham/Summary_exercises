@@ -1,0 +1,9 @@
+Cho A là một dãy số nguyên bất kỳ được nhập từ bàn phím.
+1) Viết chương trình mô tả thuật toán tìm kiếm tuần tự phần tử K (là một số nguyên
+được nhập từ bàn phím). Tính thời gian thực hiện công việc tìm kiếm này.
+2) Viết chương trình mô phỏng các thuật toán sắp xếp chèn, sắp xếp chọn và sắp xếp
+nổi bọt mà em đã biết theo thứ tự giảm dần. Cho biết thời gian thực hiện các chương
+trình trên với bộ dữ liệu đầu vào là dãy A.
+3) Viết chương trình sử dụng một thuật toán sắp xếp mà em biết theo thứ tự tăng dần
+của dãy A. Sau đó sử dụng thuật toán tìm kiếm nhị phân phần tử K (ở câu 1). Tính
+thời gian thực hiện thuật toán sau đó so sánh với kết quả tìm kiếm của câu 1.
