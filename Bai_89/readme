@@ -1,0 +1,29 @@
+Cho file STR.INP có nhiều chuỗi, mỗi chuỗi trên một dòng. Mỗi chuỗi chứa các ký tự chữ 
+cái thường tiếng Anh và khoảng trắng, giữa các từ có đúng một khoảng trắng, đầu và cuối 
+mỗi chuỗi không có khoảng trắng. Hãy viết chương trình hoàn chỉnh thực hiện các công 
+việc sau (xem các yêu cầu là độc lập)
+a. Tìm một từ dài nhất của mỗi chuỗi trong file STR.INP.
+b. Tìm một chuỗi con chứa một từ bên trái và một từ bên phải của mỗi chuỗi trong file 
+STR.INP, giữa hai từ trên có một ký tự khoảng trắng.
+c. Hãy tìm một chuỗi dài nhất trong file STR.INP
+d. Đếm xem file STR. INP có tất cả bao nhiêu từ ?
+e. Hãy đếm xem file STR.INP có bao nhiêu từ “your”?
+Kết quả ghi vào file STR.OUT theo cấu trúc như minh họa ở bộ test tham khảo sau.
+Ví dụ: (Kết quả minh họa sau xem tất cả các câu hỏi đều có cùng dữ liệu đầu vào từ file str.inp). 
+STR.INP
+4
+what good is money if it can not buy happiness
+do not waste your time on a man who is not willing to waste their time on you
+it is what is in yourself that makes you happy or unhappy
+a true friend is someone who reaches for your hand and touches your heart
+STR.OUT
+CAU a:
+happiness
+willing
+yourself
+someone
+CAU b:
+what happiness
+do you
+it unhappy
+a heart

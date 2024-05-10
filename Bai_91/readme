@@ -1,0 +1,9 @@
+Viết chương trình nhập 1 sâu kí tự S gồm các chữ
+cái in thường và chữ số. In ra màn hình:
+-Số tự nhiên a sau khi xóa các chữ cái
+- Xóa một số chữ số của a để được số tự nhiên b lớn
+nhất chia hết cho 5 (nếu không tìm được thì in ra
+KHÔNG)
+- Số T là tổng các số có trong xâu.
+- ví dụ: với S = hgs8ngay21thang4nam2024, 
+thì in ra kết quả là: a=82142024, b=821420, T=2057
