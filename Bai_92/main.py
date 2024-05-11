@@ -1,0 +1,6 @@
+n=input()
+k=int(input())
+kq=max(0,int("9"+"0"*(k-1))*(len(n)-k))
+t=int(n)
+if k==1: print(int(n[0])+kq)
+else: print(t+kq-int("1"+"0"*(len(n)-1)))
