@@ -1,0 +1,21 @@
+Bài 3. SỐ ĐẶC BIỆT
+Cho hai số nguyên dương P và S (S không chứa số 0), biết số lượng chữ số của S không
+vượt quá số lượng chữ số của P, nếu gọi N là số lượng chữ số của Pthì 1 ≤N ≤ 105.
+Yêu cầu: Tìm số nguyên dương lớn nhất không chứa các chữ số thuộc S nhưng bé hơn hoặc
+bằng P.
+Dữ liệu vào: Đọc từ tệp SODB.INP theo cấu trúc sau:
+· Dòng thứ nhất chứa số nguyên dương P.
+· Dòng thứ hai chứa số nguyên dương S.
+Dữ liệu ra: Ghi ra tệp SODB.OUT một số nguyên dương lớn nhất (không chứa số 0 ở đầu) thỏa
+mãn yêu cầu bài toán, nếu không có số nào thỏa mãn yêu cầu thì xuất ra màn hình số -1.
+Ví dụ:
+SODB.INP
+2024
+23
+SODB.OUT
+1999
+Giải thích:
+Số lớn nhất không chứa chữ số 2 và 3 thuộc S nhưng bé hơn hoặc bằng P = 2024 là 1999.
+Giới hạn:
+· 70% số điểm của bài ứng với các bộ dữ liệu vào có giới hạn 1≤N≤8;
+· 30% số điểm của bài ứng với các bộ dữ liệu vào có giới hạn 8<N≤10^5.

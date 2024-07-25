@@ -1,0 +1,18 @@
+Trong máy tính, để tiết kiệm bộ nhớ, người ta thường tìm cách nén dữ liệu. Trong việc nén văn bản, ta sủ dụng 
+một phương pháp đơn giản đươc mô tả thông qua ví dụ sau:
+Ví dụ:
+Với xâu ký tự: "aaaabbb" sẽ được nén lại thành xâu "4a3b". Với xâu ký tự "aaab" sẽ được nén lại thành "3ab".
+Cho một xâu S gồm các ký tự thuộc tập 'a'...'z'Gọt St là xâu nén của xâu S theo phương pháp được mô tả như trên. Xâu 
+St gồm N ký tự thuộc tập các ký tự 'a'...'z', '0'...'9'
+Hãy giải nén xâu St để được xâu gốc S.
+Input
+Một xâu ký tự St.
+Output
+Một xâu ký tự S sau khi giải nén.
+Đề đảm bảo số lượng kí tự sau khi giải nén không quá 10^7
+Constraints
+1≤N≤10000
+Input
+2m2a3b4ezh
+Output
+mmaabbbeeeezh

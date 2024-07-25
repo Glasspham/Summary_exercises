@@ -1,0 +1,13 @@
+BÀI 4. MẬT KHẨU (nhspassword001)
+Thư tạo một gmail cách đây 3 năm, một thời gian không sử dụng email nên Thư
+đã quên mật khẩu đăng nhập. Thư chỉ nhớ rằng mặt khẩu là một số nguyên lớn
+nhất có N chữ số và tổng các chữ số của nó đúng bằng S.
+Yêu cầu: Hãy giúp Thư tìm lại mặt khẩu.
+Dừ liệu vào: Hai số nguyên dương N và S (1 ≤ N ≤ 104; 0 ≤ S ≤ 106) trên
+cùng một dòng và cách nhau một dấu cách.
+Kết quả: Một số duy nhất là mật khẩu cần tìm. Nếu không tìm được mặt khẩu
+thì ghi ra số -1.
+Ví dụ:
+Input   Output
+5 12    93000
+3 29    -1

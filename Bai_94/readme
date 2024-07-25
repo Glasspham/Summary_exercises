@@ -1,0 +1,20 @@
+Dãy số
+Cho dãy số nguyên a1, a2,...an (1 <= n <= 100000) mỗi số không vượt quá 10000. Dãy số này được viết trên một vòng tròn. 
+Nghĩa là, khi cất vòng tròn tại vị trí j, ta thu được vị trí được gọi là vị trí tốt, nếu các điều kiện sau đây được
+thỏa mãn:
+a[j] > 0
+a[j] + a[j+1] > 0
+...
+a[j] + a[j+1] +...+ a[n] + a[1] + a[2] +...+ a[j-2] > 0
+a[j] + a[j+1] +...+ a[n] + a [1] +a[2] +...+a[j-2] +a[j-1] > 0
+Yêu cầu: hãy đếm số vị trí tốt
+Input
+Dòng đầu tiên chứa số nguyên n
+Dòng thứ 2 chứa dãy số a1, a2,...an
+Output
+In ra 1 số nguyên duy nhất là số vị trí tốt.
+Sample Input
+5
+0 1 -2 10 3
+Sample Output
+2

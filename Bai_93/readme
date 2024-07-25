@@ -1,0 +1,13 @@
+Nhập số nguyên dương n từ bàn phím
+Yêu cầu: In ra màn hình các số liên tiếp nhỏ hơn n và tổng các số đó bằng n 
+(nếu có nhiều hơn 1 cách in ra tất cả cách đó). Nếu không có in ra màn hình -1
+VD:
+-Input:
+10
+-Output:
+1 2 3 4 (1+2+3+4=10)
+-Input:
+11
+-Output:
+5 6 (5+6=11)
+*NNLT: Python

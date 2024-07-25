@@ -1,0 +1,21 @@
+Số nguyên tố rút gọn của một số tự nhiên n chính là tổng các ước nguyên tố của n.
+Ví dụ: n=252=2.2.3.3.7 (n có 3 ước nguyên tố là 2, 3 và 7)
+Số nguyên tố rút gọn của n là 2+3+7=12
+Yêu cầu: 
+a/ Nhập số tự nhiên n từ bàn phím, in ra số nguyên tố rút gọn của n. (1<n<1000000)
+b/ Nhập 2 số nguyên a, b không vượt quá 10000 (a<b). In ra các số có cùng số
+nguyên tố rút gọn với n trong đoạn a đến b và số lượng các số tìm được.
+Input
+252
+1 200
+Output
+12
+35 42 84 126 168 175
+6
+Ví dụ:
+Nhap n: 252
+So nguyen to rut gon cua n: 12
+Nhap a, b: 1 200
+Cac so co cung so nguyen to rut gon voi n:
+35 42 84 126 168 175
+Co 6 so

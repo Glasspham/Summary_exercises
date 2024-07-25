@@ -1,0 +1,18 @@
+[NBKCS-04.20]. PAIR GCD
+Tìm hai số bất kỳ có ước chung lớn nhất trong danh sách gồm n số nguyên dương cho
+trước.
+· Input: Dữ liệu vào từ tệp input. txt có cấu trúc như sau:
++ Dòng đầu tiên là Q (1≤Q≤10^2) testcase, các dòng tiếp theo là số bộ test, với bộ test
+thứ i, bao gồm hai dòng:
++ Dòng thứ 1 là số lượng phần tử trong danh sách n.(1<n≤10^3).
++ Dòng thứ 2 là các phần tử trong danh sách a1, a2, a3 ... an, được đặt cách nhau một
+khoảng trắng.(1≤ai≤10^6).
+· Output: Ghi vào tệp output. txt, UCLN của 2 số bất kỳ trong danh sách.
+input.txt
+1
+6
+9 4 7 6 5 1
+output.txt
+3
+Giải thích
+UCLN của 9 và 6 Là 3 (Là số Lớn nhất)
