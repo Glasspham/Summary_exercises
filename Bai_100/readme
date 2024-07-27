@@ -1,0 +1,14 @@
+Số lượng số có ba ước
+Cho số tự nhiên N. Nhiệm vụ của bạn là hày đếm xem có tất cả bao nhiều số có đúng ba ước số không vượt quả N. 
+Ví dụ N = 100, ta có 4 số 4, 9, 25, 49 có đúng ba ước.
+Input Format:
+Số nguyên dương N
+Constraints:
+1 ≤ N ≤ 10^12
+Output Format
+Đưa ra kết quả trên một dòng
+Example:
+Input
+100
+Output
+4
