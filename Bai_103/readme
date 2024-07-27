@@ -1,0 +1,22 @@
+Bài 2. Số bất lặp (7 điểm)
+Số bất lặp được định nghĩa như sau: một số bất lặp được định nghĩa là số mà trong
+đó các chữ số {1, 2, 3, 4, 5, 6, 7, 8, 9} chỉ xuất hiện tối đa một lần. Tùng được thầy giáo
+yêu cầu cậu ta tìm ra số bất lặp bé nhất không bé hơn N.
+Yêu cầu: Hãy giúp Tùng tìm ra con số đó theo yêu cầu của thầy giáo.
+Dữ liệu: Vào từ tập tin văn bản SOBATLAP.INP gồm nhiều dòng, mỗi dòng có
+chứa 1 số nguyên dương N như mô tả ở đề bài.
+Kết quả: Ghi ra tập tin văn bản SOBATLAP.OUT gồm nhiều dòng, mỗi dòng đưa
+ra câu trả lời cho câu hỏi tương ứng, nếu không tồn tại số thỏa mãn nào thì ghi ra số 0.
+Ví dụ:
+SOBATLAP.INP    SOBATLAP.OUT
+    117             123
+    90              91
+    42              42
+    25              25
+    42              42
+    43              43
+    67              67
+    52              52
+Ràng buộc:
+- Có 40% số test ứng với 40% số điểm của bài có 0 < N ≤ 10^3;
+- Có 60% số test ứng với 60% số điểm của bài có 10^3 < N ≤ 10^9;
