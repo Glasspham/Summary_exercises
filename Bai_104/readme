@@ -1,0 +1,15 @@
+Cho biết số nguyên dương n. Hãy đếm số lượng tất cả các số có 4 chữ số và có
+tổng các chữ số bằng n.
+Dữ liệu:
+Dòng đầu chứa số nguyên 𝑇 cho biết số bộ dữ liệu (1 ≤ T ≤ 100)
+T dòng tiếp theo, mỗi dòng chứa một số nguyên 𝑁 (1 ≤ N ≤ 36)
+Kết quả:
+Ứng với mỗi bộ dữ liệu vào, in ra một dòng chứa các số thoả mãn.
+Ví dụ:
+Sumdigits.inp Sumdigits.out
+1
+35
+Sumdigits.out
+4
+Giải thích:
+Có 4 số có bốn chữ số và có tổng các chữ số bằng 35 là: 8999, 9899, 9989, 9998

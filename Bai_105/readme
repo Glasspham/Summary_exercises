@@ -1,0 +1,26 @@
+Hình sau mô tả một tam giác số có số hàng N=5:
+            7
+           3 8
+          8 1 0
+         2 7 4 4
+        4 5 2 6 5
+Đi từ đĩnh (số 7) đến đáy tam giác bằng một đường gấp khúc, mỗi bước chỉ
+được đi từ số ở hàng trên xuống một trong hai số đứng kề bên phải hay bên
+trái ở hàng dưới, và cộng các số trên đường đi lại ta được một tổng.
+Ví dụ: đường đi 7 8 1 4 6 có tổng là S=26, đường đi 7 3 1 7 5 có tổng là S=23
+Trong hình trên, tổng Smax=30 theo đường đi 7 3 8 7 5 là tổng lớn nhất
+trong tất cả các tổng.
+Nhiệm vụ của bạn và viết chương trình nhận dữ liệu vào là một tam giác số
+nhập từ bàn phím và đưa ra kết quả là giá trị của tổng Smax trên màn hình có
+dạng như sau:
+Dòng thứ 1: có duy nhất 1 số N là số hàng của tam giác số (0<N<100).
+N dòng tiếp theo, từ dòng thứ 2 đến dòng thứ N+1: dòng thứ i có (i-1) số
+cách nhau bởi dấu trống (space).
+Ví dụ: với nội dung là
+5
+7
+3 8
+8 1 0
+2 7 4 4
+4 5 2 6 5
+thì kết quả chạy chương trình sẽ là: Smax=30.
