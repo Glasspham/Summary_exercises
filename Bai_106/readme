@@ -1,0 +1,36 @@
+Bát Giới đang đói, ông đến cửa hàng sữa gần nhất. Bát Giới có thể mua sữa chứa trong một hộp bằng 
+giấy có dung lượng 1 lít với giá a (berllar), hoặc sữa chứa trong một chai thủy tinh cũng có dung 
+lượng 1 lít với giá b (berllar).
+Bát Giới cũng có thể trả lại chai thủy tinh rỗng cho cửa hàng và nhận lại c (berllar) (c<b), nhưng 
+cửa hàng không nhận lại hộp giấy. Hiện tại, Bát Giới có n (berllar) và đang rất đói, vì vậy ông ta 
+muốn uống càng nhiều sữa càng tốt. Hãy chỉ cho Bát Giới cách mua được nhiều sữa nhất.
+Mô tả đầu vào
+Đầu vào gồm một dòng chứa bốn số nguyên n,a,b,c cách nhau bởi dấu cách, tương ứng là số tiền mà Bát
+Giới có (tính bằng berllar), giá một lít sữa đựng trong hộp vỏ giấy, giá một lít sữa đựng trong một 
+chai thủy tinh và số tiền cửa hàng sữa có thể trả cho một chai thủy tinh rỗng.
+Ràng buộc
+1≤n,a≤10^18 ,1≤c<b≤10^18 
+Mô tả đầu ra
+In ra số nguyên duy nhất là số lít sữa tối đa mà Bát Giới có thể mua.
+Test case mẫu
+Đầu vào mẫu 1
+10 11 9 8 
+Đầu ra mẫu 1
+2
+Đầu vào mẫu 2
+10 5 6 1 
+Đầu ra mẫu 2
+2
+
+Giải thích:
+Công thức: so_lit = (n - c) / (b - c)
+Ý nghĩa từng thành phần:
+b - c: Đây là số tiền thực tế mà Bát Giới phải trả cho mỗi lít sữa khi mua bằng chai thủy tinh, bởi vì 
+sau khi mua một lít sữa với giá b, Bát Giới có thể nhận lại c khi trả lại chai. Vì vậy, chi phí ròng 
+cho mỗi lít sữa thực tế chỉ là b - c.
+n - c: Đây là số tiền còn lại sau khi dự trù mua một chai thủy tinh và ngay lập tức nhận lại c từ việc 
+trả lại chai đó. Điều này cho phép Bát Giới tối đa hóa số lít sữa mà anh ấy có thể mua.
+(n - c) / (b - c): Đây là phép chia để tính số lít sữa mà Bát Giới có thể mua được nếu sử dụng toàn bộ 
+số tiền n để mua sữa bằng chai thủy tinh với chi phí thực tế là b - c cho mỗi lít. Bằng cách tính 
+(n - c) / (b - c), bạn đang xác định số lần có thể thực hiện việc mua sữa bằng chai thủy tinh (bao gồm 
+cả việc trả lại chai để nhận tiền hoàn lại) trước khi số tiền hết.
