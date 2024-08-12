@@ -1,5 +1,5 @@
 # # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_21\HANGXOM.INP','r') as file:
+with open('HANGXOM.INP','r') as file:
     L, R = map(int, file.read().split())
 
 # Function to check if a number is prime
@@ -23,6 +23,6 @@ def count_prime_pairs(L, R):
 result = count_prime_pairs(L, R + 1)  # Adding 1 to R to include R in the range
 
 # Ghi kết quả ra file output
-with open('E:\Language\Baitaptonghop\Bai_21\HANGXOM.OUT', 'w') as file:
+with open('HANGXOM.OUT', 'w') as file:
     file.write(str(result))
 

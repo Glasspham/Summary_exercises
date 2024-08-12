@@ -5,25 +5,27 @@
 
 using namespace std;
 
-int main() {
-    ifstream file("E:\\Language\\Baitaptonghop\\Bai_8\\MUAHOA.INP");
+int main()
+{
+    ifstream file("MUAHOA.INP");
     int n, m;
     file >> n >> m;
     vector<vector<int>> flowers(n, vector<int>(2));
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         file >> flowers[i][0] >> flowers[i][1];
     }
     file.close();
 
-    sort(flowers.begin(), flowers.end(), [](const vector<int> &a, const vector<int> &b) {
-        return a[0] < b[0];
-    });
+    sort(flowers.begin(), flowers.end(), [](const vector<int> &a, const vector<int> &b)
+         { return a[0] < b[0]; });
 
     int total_flowers = 0;
     int total_cost = 0;
 
-    for (auto &flower : flowers) {
+    for (auto &flower : flowers)
+    {
         int price = flower[0];
         int quantity = flower[1];
         int can_buy = min(quantity, (m - total_cost) / price);
@@ -31,7 +33,7 @@ int main() {
         total_flowers += can_buy;
     }
 
-    ofstream outfile("E:\\Language\\Baitaptonghop\\Bai_8\\MUAHOA.OUT");
+    ofstream outfile("MUAHOA.OUT");
     outfile << total_flowers;
     outfile.close();
 

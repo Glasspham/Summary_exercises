@@ -5,7 +5,8 @@
 
 using namespace std;
 
-string find_largest_common_subsequence(const string& A, const string& B) {
+string find_largest_common_subsequence(const string &A, const string &B)
+{
     int m = A.length();
     int n = B.length();
 
@@ -13,11 +14,16 @@ string find_largest_common_subsequence(const string& A, const string& B) {
     vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
 
     // Xây dựng ma trận dp để tìm độ dài chuỗi con chung
-    for (int i = 1; i <= m; ++i) {
-        for (int j = 1; j <= n; ++j) {
-            if (A[i - 1] == B[j - 1]) {
+    for (int i = 1; i <= m; ++i)
+    {
+        for (int j = 1; j <= n; ++j)
+        {
+            if (A[i - 1] == B[j - 1])
+            {
                 dp[i][j] = dp[i - 1][j - 1] + 1;
-            } else {
+            }
+            else
+            {
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
             }
         }
@@ -26,14 +32,20 @@ string find_largest_common_subsequence(const string& A, const string& B) {
     // Duyệt ngược từ dp[m][n] để xây dựng chuỗi con chung lớn nhất
     int i = m, j = n;
     string result = "";
-    while (i > 0 && j > 0) {
-        if (A[i - 1] == B[j - 1]) {
+    while (i > 0 && j > 0)
+    {
+        if (A[i - 1] == B[j - 1])
+        {
             result = A[i - 1] + result;
             --i;
             --j;
-        } else if (dp[i - 1][j] > dp[i][j - 1]) {
+        }
+        else if (dp[i - 1][j] > dp[i][j - 1])
+        {
             --i;
-        } else {
+        }
+        else
+        {
             --j;
         }
     }
@@ -41,9 +53,10 @@ string find_largest_common_subsequence(const string& A, const string& B) {
     return result.empty() ? "-1" : result;
 }
 
-int main() {
-    ifstream infile("E:/Language/Baitaptonghop/Bai_20/MAX.INP");
-    ofstream outfile("E:/Language/Baitaptonghop/Bai_20/MAX.OUT");
+int main()
+{
+    ifstream infile("MAX.INP");
+    ofstream outfile("MAX.OUT");
 
     string A, B;
     infile >> A >> B;

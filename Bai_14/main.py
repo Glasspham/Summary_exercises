@@ -10,7 +10,7 @@ def solve_fence(n, heights):
     return median, total_cost
 
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_14\HANGRAO.INP', 'r') as file_in:
+with open('HANGRAO.INP', 'r') as file_in:
     n = int(file_in.readline().strip())
     heights = list(map(int, file_in.readline().strip().split()))
 
@@ -18,5 +18,5 @@ with open('E:\Language\Baitaptonghop\Bai_14\HANGRAO.INP', 'r') as file_in:
 result_height, min_cost = solve_fence(n, heights)
 
 # Ghi kết quả ra file output
-with open('E:\Language\Baitaptonghop\Bai_14\HANGRAO.OUT', 'w') as file_out:
+with open('HANGRAO.OUT', 'w') as file_out:
     file_out.write(f"{result_height}\n{min_cost}")

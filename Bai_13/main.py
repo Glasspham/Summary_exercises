@@ -1,5 +1,5 @@
 # Đọc dữ liệu từ file input
-with open("E:\Language\Baitaptonghop\Bai_13\DIFFSSTR.INP", "r") as file_in:
+with open("DIFFSSTR.INP", "r") as file_in:
     n = int(file_in.readline().strip())  # Đọc độ dài của xâu ký tự S
     s = file_in.readline().strip()  # Đọc xâu ký tự S
 
@@ -21,5 +21,5 @@ for length in range(1, n + 1):
         break  # Thoát khi đã tìm được độ phân biệt nhỏ nhất
 
 # In kết quả ra file output
-with open("E:\Language\Baitaptonghop\Bai_13\DIFFSSTR.OUT", "w") as file_out:
+with open("DIFFSSTR.OUT", "w") as file_out:
     file_out.write(str(result))

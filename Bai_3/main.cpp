@@ -3,23 +3,28 @@
 
 using namespace std;
 
-int tinh_phi_internet(int A, int B, int C, int D) {
+int tinh_phi_internet(int A, int B, int C, int D)
+{
     int phi_thue_bao = A;
     int gioi_han_luu_luong = B;
     int phi_qua_luu_luong = C;
     int luong_da_su_dung = D;
 
-    if (luong_da_su_dung <= gioi_han_luu_luong) {
+    if (luong_da_su_dung <= gioi_han_luu_luong)
+    {
         return phi_thue_bao;
-    } else {
+    }
+    else
+    {
         int phi_truy_cap = phi_thue_bao + (luong_da_su_dung - gioi_han_luu_luong) * phi_qua_luu_luong;
         return phi_truy_cap;
     }
 }
 
-int main() {
-    ifstream file_in("E:/Language/Baitaptonghop/Bai_3/goicuoc.inp");
-    ofstream file_out("E:/Language/Baitaptonghop/Bai_3/goicuoc.out");
+int main()
+{
+    ifstream file_in("goicuoc.inp");
+    ofstream file_out("goicuoc.out");
 
     int A, B, C, D;
     file_in >> A >> B >> C >> D;

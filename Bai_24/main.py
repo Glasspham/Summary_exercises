@@ -8,7 +8,7 @@ def is_prime(n):
     return True
 
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_24\DOANNT.INP', 'r') as file:
+with open('DOANNT.INP', 'r') as file:
     Q = int(file.readline().strip())
     results = []
 
@@ -22,6 +22,6 @@ with open('E:\Language\Baitaptonghop\Bai_24\DOANNT.INP', 'r') as file:
         results.append(count)
 
 # Ghi kết quả vào file output
-with open('E:\Language\Baitaptonghop\Bai_24\DOANNT.OUT', 'w') as file:
+with open('DOANNT.OUT', 'w') as file:
     for result in results:
         file.write(str(result) + '\n')

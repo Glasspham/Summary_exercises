@@ -1,5 +1,5 @@
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_2\olympic.inp', 'r') as file:
+with open('olympic.inp', 'r') as file:
     n, k = map(int, file.readline().split())
     tasks = [list(map(int, file.readline().split())) for _ in range(n)]
 
@@ -20,7 +20,7 @@ for task in tasks:
 import os
 
 # Đường dẫn tuyệt đối tới file output
-file_path = os.path.join(os.getcwd(), "E:\Language\Baitaptonghop\Bai_2\olympic.out")
+file_path = os.path.join(os.getcwd(), "olympic.out")
 
 # Ghi kết quả vào file .out
 with open(file_path, 'w') as file:

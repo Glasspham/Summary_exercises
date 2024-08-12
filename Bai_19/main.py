@@ -1,5 +1,5 @@
 # Open the input and output files
-with open('E:\Language\Baitaptonghop\Bai_19\MINK.INP', 'r') as inp, open('E:\Language\Baitaptonghop\Bai_19\MINK.OUT', 'w') as out:
+with open('MINK.INP', 'r') as inp, open('MINK.OUT', 'w') as out:
     N = int(inp.readline().strip())  # Read the number of elements
     k = int(inp.readline().strip())  # Read the value of k
     arr = list(map(int, inp.readline().split()))  # Read the array elements

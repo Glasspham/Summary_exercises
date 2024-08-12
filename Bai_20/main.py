@@ -1,5 +1,5 @@
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_20\MAX.INP', 'r') as f:
+with open('MAX.INP', 'r') as f:
     A = f.readline().strip()  # Đọc xâu A từ dòng đầu tiên
     B = f.readline().strip()  # Đọc xâu B từ dòng thứ hai
 
@@ -35,5 +35,5 @@ def find_largest_common_subsequence(A, B):
 result = find_largest_common_subsequence(A, B)
 
 # Ghi kết quả ra file output
-with open('E:\Language\Baitaptonghop\Bai_20\MAX.OUT', 'w') as f:
+with open('MAX.OUT', 'w') as f:
     f.write(result + '\n')  # Ghi kết quả vào file MAX.OUT

@@ -1,5 +1,5 @@
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_22\DONXE.INP', 'r') as file:
+with open('DONXE.INP', 'r') as file:
     n = int(file.readline())
     good_count = 0
     # Danh sách lưu trữ thông tin của các xe tốt
@@ -15,7 +15,7 @@ with open('E:\Language\Baitaptonghop\Bai_22\DONXE.INP', 'r') as file:
 good_cars.sort()
 
 # Ghi kết quả ra file output
-with open('E:\Language\Baitaptonghop\Bai_22\DONXE.OUT', 'w') as f:
+with open('DONXE.OUT', 'w') as f:
 
     # In ra số lượng xe nhỏ nhất trong các xe có tổng khánh < 60 (nếu danh sách không rỗng)
     if good_cars:

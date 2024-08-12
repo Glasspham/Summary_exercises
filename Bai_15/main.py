@@ -1,6 +1,6 @@
 #Cách 1
 # Đọc dữ liệu từ file input
-with open('E:\Language\Baitaptonghop\Bai_15\PHANCONG.INP', 'r') as file:
+with open('PHANCONG.INP', 'r') as file:
     lines = file.readlines()
 
 times = []
@@ -12,7 +12,7 @@ for line in lines:
 max_min_time = max(min(teacher) for teacher in zip(*times))
 
 # Ghi kết quả ra file output
-with open('E:\Language\Baitaptonghop\Bai_15\PHANCONG.OUT', 'w') as file:
+with open('PHANCONG.OUT', 'w') as file:
     file.write(str(max_min_time))
 
 #Cách 2
@@ -31,7 +31,7 @@ def min(m, n):
         return n
 
 # Open the input file for reading
-with open('E:\Language\Baitaptonghop\Bai_15\PHANCONG.INP', 'r') as file:
+with open('15\PHANCONG.INP', 'r') as file:
     lines = file.readlines()
     # Extracting values from each line
     m1, n1, k1 = map(int, lines[0].split())
@@ -54,5 +54,5 @@ t = max(k1, max(m3, n2))
 kq = min(t, kq)
 
 # Open the output file for writing the result
-with open('E:\Language\Baitaptonghop\Bai_15\PHANCONG.OUT', 'w') as file:
+with open('15\PHANCONG.OUT', 'w') as file:
     file.write(str(kq))

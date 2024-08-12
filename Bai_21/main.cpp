@@ -1,15 +1,19 @@
 #include <iostream>
-#include<fstream>
+#include <fstream>
 #include <cmath>
 
 using namespace std;
 // Function to check if a number is prime
-bool is_prime(int num) {
-    if (num < 2) {
+bool is_prime(int num)
+{
+    if (num < 2)
+    {
         return false;
     }
-    for (int i = 2; i <= sqrt(num); ++i) {
-        if (num % i == 0) {
+    for (int i = 2; i <= sqrt(num); ++i)
+    {
+        if (num % i == 0)
+        {
             return false;
         }
     }
@@ -17,19 +21,23 @@ bool is_prime(int num) {
 }
 
 // Function to count prime pairs with a difference of 2 in a range
-int count_prime_pairs(int L, int R) {
+int count_prime_pairs(int L, int R)
+{
     int count = 0;
-    for (int i = L; i < R; ++i) {
-        if (is_prime(i) && is_prime(i + 2)) {
+    for (int i = L; i < R; ++i)
+    {
+        if (is_prime(i) && is_prime(i + 2))
+        {
             count++;
         }
     }
     return count;
 }
 
-int main() {
-    ifstream infile("E:/Language/Baitaptonghop/Bai_21/HANGXOM.INP");
-    ofstream outfile("E:/Language/Baitaptonghop/Bai_21/HANGXOM.OUT");
+int main()
+{
+    ifstream infile("HANGXOM.INP");
+    ofstream outfile("HANGXOM.OUT");
     int L, R;
     infile >> L >> R;
 

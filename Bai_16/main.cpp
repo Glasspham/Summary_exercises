@@ -2,14 +2,16 @@
 #include <fstream>
 #include <cmath>
 
-int main() {
+int main()
+{
     int dem = 0;
 
-    std::ifstream file("E:\\Language\\Baitaptonghop\\Bai_16\\DEBIEN.INP");
+    std::ifstream file("DEBIEN.INP");
     int n;
     file >> n;
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         int l, r;
         file >> l >> r;
         int s1 = std::ceil(std::sqrt(l));
@@ -18,7 +20,7 @@ int main() {
     }
     file.close();
 
-    std::ofstream file_out("E:\\Language\\Baitaptonghop\\Bai_16\\DEBIEN.OUT");
+    std::ofstream file_out("DEBIEN.OUT");
     file_out << dem << "\n";
     file_out.close();
 

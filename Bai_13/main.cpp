@@ -4,8 +4,9 @@
 #include <unordered_set>
 
 using namespace std;
-int main() {
-    ifstream file_in("E:/Language/Baitaptonghop/Bai_13/DIFFSSTR.INP");
+int main()
+{
+    ifstream file_in("DIFFSSTR.INP");
     int n;
     file_in >> n;
     string s;
@@ -14,14 +15,17 @@ int main() {
 
     int result = n;
 
-    for (int length = 1; length <= n; ++length) {
+    for (int length = 1; length <= n; ++length)
+    {
         unordered_set<string> seen;
         bool found = true;
 
-        for (int i = 0; i <= n - length; ++i) {
+        for (int i = 0; i <= n - length; ++i)
+        {
             string substring = s.substr(i, length);
 
-            if (seen.find(substring) != seen.end()) {
+            if (seen.find(substring) != seen.end())
+            {
                 found = false;
                 break;
             }
@@ -29,13 +33,14 @@ int main() {
             seen.insert(substring);
         }
 
-        if (found) {
+        if (found)
+        {
             result = length;
             break;
         }
     }
 
-    ofstream file_out("E:/Language/Baitaptonghop/Bai_13/DIFFSSTR.OUT");
+    ofstream file_out("DIFFSSTR.OUT");
     file_out << result;
     file_out.close();
 

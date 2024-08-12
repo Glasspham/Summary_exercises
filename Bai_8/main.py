@@ -1,6 +1,6 @@
 while False: # Cách 1
    # Đọc dữ liệu từ file input
-    with open('E:\Language\Baitaptonghop\Bai_8\MUAHOA.INP', 'r') as file:
+    with open('MUAHOA.INP', 'r') as file:
         n, m = map(int, file.readline().split())
         flowers = [list(map(int, file.readline().split())) for _ in range(n)]
 
@@ -22,12 +22,12 @@ while False: # Cách 1
             break
 
     # Ghi kết quả vào file output
-    with open('E:\Language\Baitaptonghop\Bai_8\MUAHOA.OUT', 'w') as file:
+    with open('MUAHOA.OUT', 'w') as file:
         file.write(str(total_flowers))
 
 while True: # Cách 2
     # Đọc dữ liệu từ file input
-    with open('E:\Language\Baitaptonghop\Bai_8\MUAHOA.INP', 'r') as file:
+    with open('MUAHOA.INP', 'r') as file:
         n, m = map(int, file.readline().split())
         flowers = [list(map(int, file.readline().split())) for _ in range(n)]
 
@@ -45,5 +45,5 @@ while True: # Cách 2
         total_flowers += can_buy  # Cập nhật tổng số lượng hoa đã mua
 
     # Ghi kết quả vào file output
-    with open('E:\Language\Baitaptonghop\Bai_8\MUAHOA.OUT', 'w') as file:
+    with open('MUAHOA.OUT', 'w') as file:
         file.write(str(total_flowers))
