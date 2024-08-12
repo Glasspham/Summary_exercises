@@ -1,0 +1,23 @@
+Câu 2. Giải tri (5,0 điểm)
+Được biết, giải nhì là thành tích cao nhất của Lâm sau khi tham gia kỳ thi Tin học trẻ
+cấp tỉnh năm học 2021-2022. Vì thế, Lâm đã được bố mẹ dẫn đi tham quan khu du lịch Đại
+Nam thuộc tỉnh Bình Dương. Nơi đây có trò chơi "MONEY - BALL" hấp dẫn làm Lâm
+thích thú. Trong trò chơi này, người ta cho một dãy quả bóng tròn, mỗi quả bóng mang một
+ký tự chữ số hoặc ký tự chữ cái. Trò chơi yêu cầu loại bỏ một số quả bóng ra khỏi dãy sao
+cho K số lượng bóng cuối cùng theo đúng thứ tự vị trí đó tạo thành số lớn nhất. Con số này
+cũng chính là số tiền mà Lâm nhận được khi thắng cuộc trò chơi.
+A793e8
+Sau khi nghe xong luật chơi, Lâm quyết tâm dành chiến thắng để có được tiển mua
+quà về cho em gái mỉnh. Bạn nghĩ xem, với người giỏi lập trình như Lâm, em ấy sẽ làm cách
+nào để nhận được số tiền như mong đợi.
+Dữ liệu vào: File văn bản BIGNUM.INP gồm:
+Dòng thứ nhất là một xâu § cho trước, xâu chỉ chứa các ký tự số và chữ cái (bao gồm
+cả ký tự thường và ký tự hoa). (s không quá 10^6 ký tự)
+Dòng thứ 2 chứa số nguyên dương K (1 ≤ số lượng số K ≤ 10^6)
+Kết quả: Ghi ra file văn bản BIGNUM.OUT gồm một dòng duy nhất chứa kết quả cần tìm.
+Vĩ dụ:
+BIGNUM.INP                  BIGNUM.OUT
+A793e8                      98
+2
+Tinhoc95Tre68nam2023        983
+3

@@ -1,42 +1,23 @@
 #include <iostream>
-#include <fstream>
 #include <string>
-
+#include <algorithm>
 using namespace std;
 
-#if 1
-// Hàm kiểm tra xem một số có đúng K chữ số khác 0 không
-bool Check(int num, int K) {
-    int cnt = 0;
-    while (num > 0) {
-        if (num % 10 != 0) 
-            cnt++;
-        num /= 10;
-    }
-    return cnt == K;
-}
-
 int main() {
-    ifstream infile("DEMSO.INP");
-    ofstream outfile("DEMSO.OUT");
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    freopen("BIGNUM.INP","r",stdin);
+    freopen("BIGNUM.OUT","w",stdout);
+    string x, a = ""; int k;
+    cin >> x >> k;
 
-    int N, K;
-    infile >> N >> K;
+    for(char i : x) if(isdigit(i)) a += i;
 
-    int cnt = 0;
-    for (int i = 1; i <= N; ++i) 
-        if (Check(i, K)) 
-            cnt++;
-
-    outfile << cnt << endl;
-
-    infile.close();
-    outfile.close();
+    for(int i = k - 1; i > -1; --i){
+        char kq = *max_element(a.begin(), a.end() - i);
+        cout << kq;
+        a = a.substr(a.find(kq) + 1);
+    }
 
     return 0;
 }
-#endif
-
-#if 1
-
-#endif
