@@ -1,0 +1,20 @@
+Dãy số nguyên tố tăng dần liên tiếp
+Cho dãy N số nguyên không âm a1, a ..... aN.
+Yêu cầu: Hày tìm một dãy con liên tiếp các số nguyên tố tăng dần dài nhất của dãy?
+Dữ liệu vào: File nguyento inp gồm 2 dòng
++Dòng 1: Ghi số N (0<N<10^5)
++ Dòng 2: Ghi N số a1, a2 ..... ax (ai<10^9)
+Kết quả: Ghi ra nguyento oụt gồm 2 dòng
++ Dòng 1: Ghi đô dài của dãy nguyên tố tang dần dài nhất tìm được
++ Dòng 2: Ghi dãy nguyên tố tìm được, nếu có nhiều dãy thòa mãn, ghi ra dãy có chỉ số
+nhỏ nhất
+Vi dụ:
+Nguyento.inp
+8
+2 5 3 4 5 7 11 6
+Nguyento.out
+3
+5 7 11
+Giới hạn:
++ 50% số test ứng với N<100, a <1000
++ 50% số test ứmg với N<10^5, ai<10^9
