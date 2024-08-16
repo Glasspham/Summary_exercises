@@ -1,0 +1,13 @@
+Cho một dãy số nguyên gồm N phần tử: a1, a2, … , aN.
+Yêu cầu: Cần chọn trong số các phần tử của dãy hai phần tử ai, aj (với i ≠ j, 1 ≤ i, j ≤ N) 
+sao cho tích của chúng là nhỏ nhất có thể.
+Dữ liệu vào: File văn bản MINP.INP
+Dòng đầu chứa số nguyên dương N (2 ≤ N ≤ 10^6);
+Dòng thứ hai chứa dãy số nguyên a1, a2, .., aN (|ai| ≤ 40000, với 1 ≤ i ≤ N).
+Dữ liệu ra: File văn bản MINP.OUT, một số nguyên là tích nhỏ nhất tìm được.
+Ví dụ:
+MINP.INP
+3
+1 -3 2
+MINP.OUT
+-6
