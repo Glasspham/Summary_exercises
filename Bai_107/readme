@@ -1,0 +1,15 @@
+Mật mã hóa là quá trình chuyển đổi các thông tin thông thường (văn bản thường hay văn bản đặc biệt) 
+thành dạng không đọc trực tiếp được, là văn bản mã hóa. Giải mật mã hay giải mã là quá trình ngược 
+lại, phục hồi lại văn bản thường từ văn bản mã. Mật mã là thuật toán để mật mã hóa và giải mật mã. 
+Bạn Minh có một mật mã được ghi lại trong một dãy số nguyên, mật mã cần tìm là tổng các số Fibonaxi 
+có mặt trong dãy số đó, em hãy giúp Minh tìm mật mã đó một cách nhanh chống nhé, biết mật mã là số 
+nhỏ hơn 10^18 và dãy số Fibonaxi là dãy số có dạng 1, 1, 2, 3, 5, 8,...
+Yêu cầu: Tìm mật mã trong  dãy số N phần tử
+Dữ liệu vào: Nhập vào một dãy số N phần tử
+Kết quả: Gồm duy nhất 1 số nguyên chính là mật mã
+Ví dụ:
+DỮ LIỆU VÀO
+7
+4 5 1 3 6 10 8
+KẾT QUẢ
+17
