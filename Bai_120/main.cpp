@@ -1,34 +1,51 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 
-using ll = long long;
-
-bool isPrime(int num){
-    if(num <= 1) return false;
-    if(num <= 3) return true;
-    if(num % 2 == 0 || num % 3 == 0) return false;
-    for(int i = 5; i * i <= num; i += 6)
-        if(num % i == 0 || num % (i + 2) == 0)
-            return false;
+bool isPrime(int n) {
+    if (n < 2) return false;
+    if (n == 2 || n == 3) return true;
+    if (n % 2 == 0 || n % 3 == 0) return false;
+    for (int i = 5; i <= sqrt(n); i += 6) 
+        if (n % i == 0 || n % (i + 2) == 0) return false;
     return true;
 }
 
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n; cin >> n;
-    vector<int> res, tmp;
-    for(int i = 0; i < n; ++i){
-        int num; cin >> num;
-        if(isPrime(num))
-            tmp.push_back(num);
-        else{
-            if(tmp.size() >= res.size())
-                res = tmp;
-            tmp.clear();
+int main() {
+    ifstream fin("nguyento.inp");
+    ofstream fout("nguyento.out");
+
+    int N; fin >> N;
+    int a[N]; for(int &x : a) fin >> x;
+
+    int maxLen = 0, startIdx = -1;
+    int currentLen = 0, currentStart = -1;
+
+    for(int i = 0; i < N; ++i){
+        if (isPrime(a[i])) {
+            if(currentLen == 0)
+                currentStart = i;
+            if(currentLen == 0 || a[i] > a[i-1]) 
+                currentLen++;
+            else{
+                currentLen = 1;
+                currentStart = i;
+            }
+        } else currentLen = 0;
+        if(currentLen > maxLen){
+            maxLen = currentLen;
+            startIdx = currentStart;
         }
     }
-    cout << res.size() << endl;
-    for(int it : res) cout << it << ' ';
+
+    fout << maxLen << endl;
+    if(maxLen > 0){
+        for (int i = 0; i < maxLen; ++i)
+            fout << a[startIdx + i] << " ";
+        fout << endl;
+    }
+
+    fin.close();
+    fout.close();
     return 0;
 }
