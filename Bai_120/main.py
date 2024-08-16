@@ -12,21 +12,18 @@ def is_prime(num):
         i += 6
     return True
 
-def main():
-    n = int(input())
-    res = []
-    tmp = []
-    for _ in range(n):
-        num = int(input())
-        if is_prime(num):
-            tmp.append(num)
-        else:
-            if len(tmp) >= len(res):
-                res = tmp[:]
-            tmp = []
-    
-    print(len(res))
-    print(' '.join(map(str, res)))
 
-if __name__ == "__main__":
-    main()
+n = int(input())
+arr = list(map(int, input().split()))
+res = []
+tmp = []
+for num in arr:
+    if is_prime(num):
+        tmp.append(num)
+    else:
+        if len(tmp) >= len(res):
+            res = tmp[:]
+        tmp = []
+
+print(len(res))
+print(' '.join(map(str, res)))
