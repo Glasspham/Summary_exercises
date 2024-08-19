@@ -1,0 +1,18 @@
+Bài 3: (4.0 điểm)                  TỪ DÀI NHẤT
+Cho một xâu dài không quá 255 kí tự.
+Yêu cầu: Em hãy viết chương trình tìm từ dài nhất đầu tiên của xâu. Từ được hiểu là một dãy các 
+kí tự trong xâu không chứa khoảng trống.
+Dữ liệu: Vào từ file văn bản XAU.INP gồm một số dòng, mỗi dòng chứa một xâu cần tìm từ dài nhất.
+Kết quả: Xuất ra file văn bản XAU.OUT mỗi dòng là một từ dài nhất của xâu tương ứng cho trong file 
+dữ liệu.
+Ví dụ:
+XAU.INP                                                                                             
+Truong hoc than thien   
+Em yeu mon tin hoc
+Tin hoc co nhieu ung dung trong doi song
+Virus Corona rat de lay lan trong khong khi
+XAU.OUT
+Truong
+yeu
+nhieu
+Corona

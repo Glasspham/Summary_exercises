@@ -1,0 +1,14 @@
+Count primes
+Cho một mảng các số nguyên, hãy đếm xem mảng có bao nhiêu số nguyên tố.
+Dữ liệu nhập
+Dông đầu tiên bao gồm một số nguyên dương n là kích thước màng (n ≤ 1000).
+Dòng thứ hai gồm n số nguyên ai là các phần tử của mảng, cách nhau bởi các 
+khoảng trắng (|a[i]| ≤ 1000000).
+Dữ liệu xuất
+Một dòng duy nhất là số lượng số nguyên tố trong mảng.
+Ví dụ
+input
+5
+1 2 3 0 -2
+output
+2
