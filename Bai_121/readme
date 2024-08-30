@@ -1,0 +1,40 @@
+https://lqdoj.edu.vn/problem/hsghn2014b4
+Trồng cây
+Dọc theo một tuyến phố thẳng có n vị trí kế tiếp nhau để trồng cây đánh số từ 1 đến n. Hiện tại
+chỉ có vị trí thứ k (1 <= k <= n) đã trồng một cây có độ cao là a[k], còn các vị trí khác để trống. 
+Theo dự kiến, người ta sẽ trồng cây có độ cao ai tại vị trí thứ i (1 <= i <= n, i ≠ k). Tuy nhiên, 
+để tăng vẻ đẹp cho hàng cậy, người ta muốn tìm một phương án sắp xếp các cây cần trồng vào các vị 
+trí thích hợp (trừ vị trí thứ k) sao cho tổng tất cả các độ chênh lệch của hai cây trồng liền kề 
+nhau là nhỏ nhất. Độ chênh lệch của hai cây được trồng tại hai vị trí liền nhau là giá trị tuyệt 
+đối của hiệu độ cao của hai cây.
+Yêu cầu: Tìm giá trị nhỏ nhất t của tổng tất cả các độ chênh lệch của hai cây trồng liền.
+Input
+· Dòng đầu chứa hai số nguyên dương n và k (n ≤ 10^3,1 ≤ k ≤ n):
+· Dòng sau chứa n số nguyên dương a[i], 1 ≤ i ≤ n, là độ cao của cây thứ i theo dự kiến. Mỗi số đều 
+không vượt quá 10^6.
+Output
+· Số t tìm được
+Example
+Test 1
+Input
+5 2
+7 3 4 2 6
+Output
+5
+Explain
+Vị trí 1 trồng cây có độ cao 2, vị trí 3 trồng cây có độ cao 4, vị trí 4 trồng cây có độ cao 6, Vị
+trí 5 trồng cây có độ cao 7. Tổng độ chênh lệnh cao nhất là 5.
+
+Test 2
+Input
+20 13
+101 208 327 414 525 616 743 812 929 1000 1131 1228 1347 1444 1525 1646 1713 1832 1909 2000 
+Output
+1899
+
+Test 3
+Input
+50 33
+11 144 775 107 626 711 106 109 153 607 959 545 681 709 36 155 797 140 292 147 128 446 378 201 586 764 68 857 812 717 666 365 517 331 866 357 855 379 376 62 803 413 81 816 514 826 446 806 213 828
+Output
+1246

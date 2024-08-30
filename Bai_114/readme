@@ -1,0 +1,21 @@
+https://oj.vnoi.info/problem/nktick
+Xếp hàng mua vé 
+Có N người sắp hàng mua vé dự buổi hoà nhạc. Ta đánh số họ từ 1 đến N theo thứ tự đứng trong hàng. 
+Mỗi người cần mua một vé, song người bán vé được phép bán cho mỗi người tối đa hai vé. Vì thế, một 
+số người có thể rời hàng và nhờ người đứng trước mình mua hộ vé. Biết tị là thời gian cần thiết để 
+người i mua xong vé cho mình. Nếu người i + 1 rời khỏi hàng và nhờ người i mua hộ vé thì thời gian 
+để người thứ i mua được vẻ cho cả hai người là r[i]. 
+Yêu cầu: Xác định xem những người nào cần rời khỏi hàng và nhờ người đứng trước mua hộ vẻ để tổng 
+thời gian phục vụ bán vé là nhỏ nhất. 
+Input
+• Dòng đầu tiên chứa số N (1 ≤ N ≤ 60000).
+• Dòng thứ hai ghi N số nguyên dương t[1], t[2], ..., t[N]. (1 ≤ t ≤ 30000)
+• Dòng thứ ba ghi N - 1 số nguyên dương r[1], r[2], ..., r[N - 1]. (1 ≤ r[i] ≤ 30000)
+Output
+In ra tổng thời gian phục vụ nhỏ nhất. 
+Sample Input 
+5 
+2 5 7 8 4 
+4 9 10 10
+Sample Output
+18
