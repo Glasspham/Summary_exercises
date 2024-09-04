@@ -1,0 +1,15 @@
+Cho mảng (a, n) gồm các số nguyên dương. Kiểm tra xem a có phải là mảng đối xứng hay không 
+(ví dụ: 15 2 1 2 15 là mảng đối xứng).
+Input:
+- Dòng 1 chứa số nguyên n (0 < n <= 1000) là độ dài dãy a.
+- Dòng 2 chứa n số nguyên a[0], a[1],..., a[n-1] là giá trị các phần tử của dãy 
+(|a[i]| <= 10000, i = 0, ...,n - 1)
+Output: In ra trên một dòng duy nhất:
+     -“YES” nếu mảng a là mảng đối xứng
+      -“NO” nếu mảng a không là mảng đối xứng
+VD:
+Input:
+5
+15 2 1 2 15
+Output:
+YES
