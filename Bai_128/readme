@@ -1,0 +1,114 @@
+https://lqdoj.edu.vn/problem/pts
+Phân tích số
+Cho mot so nguyên dưong N. Ta phan tich so N thanh tổng cua K số nguyên dương
+liên tiếp (K ≥ 2).
+Yêu Cầu: Trong các cách phân tích đó, hãy tìm cách phân tích sao cho được số K lớn nhất
+(tức là N được phân tích thành tổng của các số nguyên dương liên tiếp có nhiều số hạng
+nhất).
+Example:
+· Với n = 30 ta có 3 cách phân tích
+. 4+5+6+7+ 8 có k = 5
+. 6+7+8+9 cók =4
+. 9+10+ 11 có k = 3
+Input
+· Một số nguyên dương N (N < 10^16).
+Output
+. Ghi ra một so nguyên K lớn nhat. Trường hợp
+không phân tích được thì ghi số 0.
+Test 1
+Input
+30
+Output
+5
+Test 2
+Input
+4
+Output
+0
+
+Để giải bài toán này, ta cần tìm cách phân tích số nguyên dương \(N\) thành tổng của các số nguyên dương liên tiếp sao cho số lượng phần tử \(K\) là lớn nhất.
+
+### Phân tích vấn đề:
+
+Nếu \(N\) được biểu diễn dưới dạng tổng của \(K\) số nguyên dương liên tiếp thì ta có:
+
+\[
+N = x + (x+1) + (x+2) + \ldots + (x + K - 1)
+\]
+
+Tổng trên có thể viết lại thành:
+
+\[
+N = Kx + \frac{K(K-1)}{2}
+\]
+
+Ở đây:
+- \(x\) là số bắt đầu của dãy liên tiếp.
+- \(\frac{K(K-1)}{2}\) là tổng của dãy từ \(0\) đến \(K-1\).
+
+Từ phương trình trên, ta có:
+
+\[
+N = Kx + \frac{K(K-1)}{2} \implies Kx = N - \frac{K(K-1)}{2}
+\]
+
+Để \(x\) là một số nguyên dương, \(Kx\) phải chia hết cho \(K\) và kết quả phải là số dương. Do đó:
+
+\[
+x = \frac{N - \frac{K(K-1)}{2}}{K}
+\]
+
+Vậy điều kiện cần là:
+
+\[
+N - \frac{K(K-1)}{2} > 0 \quad \text{và} \quad \frac{N - \frac{K(K-1)}{2}}{K} \in \mathbb{Z}
+\]
+
+### Giải thuật:
+
+1. Khởi tạo \(K = 2\).
+2. Tăng dần \(K\) và kiểm tra điều kiện: \(N - \frac{K(K-1)}{2} > 0\).
+3. Nếu điều kiện thỏa mãn và \(\frac{N - \frac{K(K-1)}{2}}{K}\) là số nguyên, tiếp tục tăng \(K\).
+4. Dừng lại khi không còn thỏa mãn và kết quả là \(K-1\).
+
+### Cài đặt C++:
+
+Dưới đây là mã nguồn C++ để giải bài toán:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long N;
+    cin >> N;
+
+    long long K = 2;  // Khởi tạo K với giá trị nhỏ nhất là 2
+    long long result = 0;
+
+    while (true) {
+        long long sum = (K * (K - 1)) / 2;
+        if (N - sum <= 0) break;
+
+        if ((N - sum) % K == 0) {
+            result = K;  // Cập nhật giá trị lớn nhất của K khi tìm thấy
+        }
+
+        K++;
+    }
+
+    cout << result << endl;  // In ra kết quả là K lớn nhất
+    return 0;
+}
+```
+
+### Giải thích:
+
+- Biến `K` tăng dần từ 2.
+- `sum` là tổng của dãy từ \(0\) đến \(K-1\).
+- Nếu điều kiện \(N - \text{sum} > 0\) và \((N - \text{sum}) \% K == 0\) thỏa mãn, cập nhật kết quả.
+- Vòng lặp dừng khi không còn giá trị \(K\) nào thỏa mãn.
+
+### Ví dụ:
+- Với đầu vào `30`, mã nguồn sẽ in ra `5` vì \(4+5+6+7+8\) có \(K = 5\).
+- Với đầu vào `4`, mã nguồn sẽ in ra `0` vì không có cách phân tích nào thỏa mãn.

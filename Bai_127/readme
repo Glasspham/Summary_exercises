@@ -1,0 +1,11 @@
+Gồm một dòng chứa số nguyên n (1 <= n <= 10^18)
+Ouput: Đưa ra một số nguyên, đó là số lượng các số từ 1 tới n, thỏa mãn: 
+số đó không chia hết cho bất kỳ số nào trong các số từ 2 đến 10.
+
+Giải thích:
+Biến total lưu tổng số các số từ 1 đến n.
+Sử dụng nguyên tắc bao hàm và loại trừ với bitmask để xét tất cả các tập hợp các ước từ 2 đến 10.
+Với mỗi tập hợp (được biểu diễn bởi bitmask), ta tính bội chung nhỏ nhất (LCM) của các phần tử trong tập hợp đó.
+Nếu số phần tử trong tập hợp là lẻ, cộng số lượng các số chia hết cho LCM vào.
+Nếu số phần tử là chẵn, trừ số lượng các số chia hết cho LCM ra.
+Kết quả cuối cùng là total - count, tức là số lượng các số không chia hết cho bất kỳ số nào từ 2 đến 10.
