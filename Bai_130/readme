@@ -1,0 +1,18 @@
+Bài 1. LONGFN (6 điếm)
+Long là một học sinh giỏi toán nhưng khả năng về lập trình lại kém. Vào một ngày đẹp trời, Long
+được bạn ABC đố bài toán sau: Cho số nguyên dương N. Hãy tính giá trị của f(N) được cho bởi
+công thức sau:
+                f(N) = -1 + 2 - 3 + ... + (-1)^N * N.
+Đối với bài toán trên thì Long làm trong phút mốt là xong. Nhưng do Long không biết lập trình,
+Long nghe nói chuẩn bị có kỳ thi giao lưu về lập trình giữa các trường trong tỉnh Thanh Hoá nên
+Long muốn nhờ các bạn hãy lập trình giải bài toán trên nhé.
+Dữ liệu: Vào từ file LONGFN.INP gồm số nguyên dương N (1 ≤N ≤ 10^15).
+Kết quả: Ghi ra file LONGFN.OUT một số duy nhất là giá trị f(N).
+Ví dụ
+LONGFN.INP      LONGFN.OUT
+3               -2
+LONGFN.INP      LONGFN.OUT
+6               3
+Ràng buộc:
++ 50% số điểm có N ≤ 10^6;
++ 50% số điểm còn lại ứng với các trường hợp còn lại.
