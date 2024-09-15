@@ -1,0 +1,11 @@
+Bài 1: SỐ NHỎ NHẤT
+Yêu cầu: Bạn được cho trước 2 số nguyên dương N và K, hãy tìm số nguyên nhỏ nhất lớn hơn N và có K chữ 
+số 5 trong biểu diễn thập phân của số đó. 
+Dữ liệu vào: Từ tệp MIN.INP gồm duy nhất 1 dòng chứa 2 số nguyên dương N và K viết cách nhau ít nhất một dấu cách. 
+Dữ liệu ra: Ghi ra tệp MIN.OUT là số nhỏ nhất tìm được thỏa mãn yêu cầu.
+Ví dụ:
+MIN.INP     MIN.OUT
+99 1        105
+Giới hạn:
+1 ≤ N ≤ 10^15
+1 ≤ K ≤ 15
