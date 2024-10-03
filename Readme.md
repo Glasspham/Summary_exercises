@@ -2,6 +2,9 @@
 ## 1. Giới thiệu về Repository
 Trong đây có ghi sẵn chi tiết đề bài và hướng dẫn giải bằng 2 ngôn ngữ lập trình chính như trong đề thi cho phép là `C++` và `Python.`
 
+| <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++"  alt="C++" width="55" height="55"/> | <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="55" height="55"/> |
+|----------|----------|
+
 ## 2. Lỗi cơ bản khi dùng Vscode
 ### 2.1 Lỗi thư viện
 Vì viết bằng `Text editor: Visual Studio Code` [(vscode)](https://code.visualstudio.com/) + môi trường [MSYS2](https://www.msys2.org/) hoặc [MinGW](https://sourceforge.net/projects/mingw/) cho `C++` nên có thư viện tổng hợp:
