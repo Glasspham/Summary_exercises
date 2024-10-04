@@ -38,5 +38,6 @@ Hãy làm thêm bước này: Vào `setting hoặc (ctrl + ,)` >> gõ tìm kiế
 
 + Còn nếu trong `vscode` thì chỉ cần chuột phải chọn `Copy path hoặc (Shift + Alt + C)` là xong.
 
-Và nhớ tự đọc đề và thử tư duy trước khi xem cách giải sau. **Lưu ý:** Cách giải chưa chắc là tối ưu nhất, bạn có thể tham khảo y tưởng và diễn lại theo ý mình.
+Và nhớ tự đọc đề và thử tư duy trước khi xem cách giải sau. 
+**Lưu ý:** Cách giải chưa chắc là tối ưu nhất, bạn có thể tham khảo y tưởng và diễn lại theo ý mình.
 # "Luyện tập – Thử thách – Không ngại khó" trích [How Kteam](https://howkteam.vn/learn)
