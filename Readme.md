@@ -30,8 +30,6 @@ Và bạn chỉ cần sửa đoạn code thành như này:
 ```
 Bây giờ có thể chạy mà không cần lấy link của 2 file  `.INP` và `.OUT`.
 
-Hãy làm thêm bước này: Vào `setting hoặc (ctrl + ,)` >> gõ tìm kiếm `Execute in file dir` >> tìm `Code-runner: File Directory As Cwd` >> tích lên.
-
 ### Cách 2: Lấy link của file dán trực tiếp vào code
 **Này cũng có 2 cách lấy:**
 + Mở "File Explorer" hoặc "This PC" và tìm kiếm cái chỗ lưu trữ bài code với file `.INP` và `.OUT`, ở trên có thanh Address nhấn vào đó để sao chép địa chỉ rồi dán vào trong đoạn code.
