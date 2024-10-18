@@ -63,7 +63,7 @@ Và bạn chỉ cần sửa đoạn code thành như này:
 
 Bây giờ có thể chạy mà không cần lấy link của 2 file `.INP` và `.OUT`.
 
-### Cách 2: Lấy link của file dán trực tiếp vào code
+#### Cách 2: Lấy link của file dán trực tiếp vào code
 
 **Này cũng có 2 cách lấy:**
 
